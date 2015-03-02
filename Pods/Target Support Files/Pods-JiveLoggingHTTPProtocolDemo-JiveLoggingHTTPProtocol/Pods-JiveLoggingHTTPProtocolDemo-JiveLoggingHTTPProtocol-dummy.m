@@ -1,0 +1,5 @@
+#import <Foundation/Foundation.h>
+@interface PodsDummy_Pods_JiveLoggingHTTPProtocolDemo_JiveLoggingHTTPProtocol : NSObject
+@end
+@implementation PodsDummy_Pods_JiveLoggingHTTPProtocolDemo_JiveLoggingHTTPProtocol
+@end
