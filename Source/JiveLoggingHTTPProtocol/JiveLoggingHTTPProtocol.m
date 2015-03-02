@@ -51,9 +51,20 @@
 #import "JiveCacheStoragePolicy.h"
 #import "JiveQNSURLSessionDemux.h"
 
+#import "JiveLog.h"
+
 @interface JiveLoggingHTTPProtocol () <NSURLSessionDataDelegate>
 
 @property (atomic, strong, readwrite) NSThread *                        clientThread;       ///< The thread on which we should call the client.
+
+@property (atomic, strong, readwrite) NSString *                        UUIDString;         ///< String form of a UUID that uniquely identifies this request
+
+/*! The log for the response.
+ *  \details In order to print the response and the content atomically,
+ *  we must store them both together until we're ready to print.
+ *  We might need to print it after -stopLoading, so don't nil it there.
+ */
+@property (atomic, strong, readwrite) JiveLog *                         responseLog;        ///< log to capture the complete response and data together.
 
 /*! The run loop modes in which to call the client.
  *  \details The concurrency control here is complex.  It's set up on the client 
@@ -65,7 +76,6 @@
  */
 
 @property (atomic, copy,   readwrite) NSArray *                         modes;
-@property (atomic, assign, readwrite) NSTimeInterval                    startTime;          ///< The start time of the request; written by client thread only; read by any thread.
 @property (atomic, strong, readwrite) NSURLSessionDataTask *            task;               ///< The NSURLSession task for that request; client thread only.
 
 @end
@@ -108,6 +118,8 @@
  */
 
 static NSString * kOurRecursiveRequestFlagProperty = @"com.jivesoftware.mobile.JiveLoggingHTTPProtocol";
+
+static NSString * kJiveUUIDStringRequestFlagProperty = @"com.jivesoftware.mobile.JiveLoggingHTTPProtocol.UUIDString";
 
 + (BOOL)canInitWithRequest:(NSURLRequest *)request
 {
@@ -184,6 +196,9 @@ static NSString * kOurRecursiveRequestFlagProperty = @"com.jivesoftware.mobile.J
 - (void)dealloc
 {
     assert(self->_task == nil);                     // we should have cleared it by now
+    
+    assert(self->_responseLog == nil);              // we should have cleared it by now
+    assert(self->_UUIDString == nil);               // we should have cleared it by now
 }
 
 - (void)startLoading
@@ -224,17 +239,26 @@ static NSString * kOurRecursiveRequestFlagProperty = @"com.jivesoftware.mobile.J
     assert(recursiveRequest != nil);
     
     [[self class] setProperty:@YES forKey:kOurRecursiveRequestFlagProperty inRequest:recursiveRequest];
-
-    self.startTime = [NSDate timeIntervalSinceReferenceDate];
     
     // Latch the thread we were called on, primarily for debugging purposes.
     
     self.clientThread = [NSThread currentThread];
     
+    self.UUIDString = [[self class] propertyForKey:kJiveUUIDStringRequestFlagProperty
+                                         inRequest:recursiveRequest];
+    if (!self.UUIDString) {
+        self.UUIDString = [[NSUUID UUID] UUIDString];
+        [[self class] setProperty:self.UUIDString
+                           forKey:kJiveUUIDStringRequestFlagProperty
+                        inRequest:recursiveRequest];
+    }
+    
     // Once everything is ready to go, create a data task with the new request.
 
     self.task = [[[self class] sharedDemux] dataTaskWithRequest:recursiveRequest delegate:self modes:self.modes];
     assert(self.task != nil);
+    
+    [self logRequest:recursiveRequest];
     
     [self.task resume];
 }
@@ -264,6 +288,9 @@ static NSString * kOurRecursiveRequestFlagProperty = @"com.jivesoftware.mobile.J
         // which specificallys traps and ignores the error.
     }
     // Don't nil out self.modes; see property declaration comments for a a discussion of this.
+    
+    // Don't nil out self.responseLog; see property declaration comments for a discussion of this.
+    self.UUIDString = nil;
 }
 
 #pragma mark * NSURLSession delegate callbacks
@@ -293,6 +320,11 @@ static NSString * kOurRecursiveRequestFlagProperty = @"com.jivesoftware.mobile.J
     
     redirectRequest = [newRequest mutableCopy];
     [[self class] removePropertyForKey:kOurRecursiveRequestFlagProperty inRequest:redirectRequest];
+    
+    JiveLog *redirectResponseLog = [[JiveLog alloc] initWithUUIDString:self.UUIDString
+                                                              response:response];
+    [redirectResponseLog logCancel];
+    [redirectResponseLog print];
     
     // Tell the client about the redirect.
     
@@ -328,10 +360,16 @@ static NSString * kOurRecursiveRequestFlagProperty = @"com.jivesoftware.mobile.J
     if ([response isKindOfClass:[NSHTTPURLResponse class]]) {
         cacheStoragePolicy = CacheStoragePolicyForRequestAndResponse(self.task.originalRequest, (NSHTTPURLResponse *) response);
         statusCode = [((NSHTTPURLResponse *) response) statusCode];
+        
+        self.responseLog = [[JiveLog alloc] initWithUUIDString:self.UUIDString
+                                                      response:(NSHTTPURLResponse *)response];
     } else {
         assert(NO);
         cacheStoragePolicy = NSURLCacheStorageNotAllowed;
         statusCode = 42;
+        
+        self.responseLog = [[JiveLog alloc] initWithUUIDString:self.UUIDString
+                                                      response:nil];
     }
     
     [[self client] URLProtocol:self didReceiveResponse:response cacheStoragePolicy:cacheStoragePolicy];
@@ -348,6 +386,8 @@ static NSString * kOurRecursiveRequestFlagProperty = @"com.jivesoftware.mobile.J
     assert([NSThread currentThread] == self.clientThread);
 
     // Just pass the call on to our client.
+    
+    [self.responseLog logData:data];
 
     [[self client] URLProtocol:self didLoadData:data];
 }
@@ -377,8 +417,13 @@ static NSString * kOurRecursiveRequestFlagProperty = @"com.jivesoftware.mobile.J
     // Just log and then, in most cases, pass the call on to our client.
 
     if (error == nil) {
+        [self.responseLog print];
+        
         [[self client] URLProtocolDidFinishLoading:self];
     } else if ( [[error domain] isEqual:NSURLErrorDomain] && ([error code] == NSURLErrorCancelled) ) {
+        [self.responseLog logCancel];
+        [self.responseLog print];
+        
         // Do nothing.  This happens in two cases:
         //
         // o during a redirect, in which case the redirect code has already told the client about 
@@ -387,11 +432,23 @@ static NSString * kOurRecursiveRequestFlagProperty = @"com.jivesoftware.mobile.J
         // o if the request is cancelled by a call to -stopLoading, in which case the client doesn't 
         //   want to know about the failure
     } else {
+        [self.responseLog logError:error];
+        [self.responseLog print];
+        
         [[self client] URLProtocol:self didFailWithError:error];
     }
 
     // We don't need to clean up the connection here; the system will call, or has already called, 
     // -stopLoading to do that.
+    
+    // except for self.responseLog, which we now no longer need.
+    self.responseLog = nil;
+}
+
+- (void)logRequest:(NSURLRequest *)request {
+    JiveLog *log = [[JiveLog alloc] initWithUUIDString:self.UUIDString
+                                               request:request];
+    [log print];
 }
 
 @end

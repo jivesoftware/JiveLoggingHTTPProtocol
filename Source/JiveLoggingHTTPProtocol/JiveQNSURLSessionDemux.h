@@ -45,7 +45,9 @@
  
  */
 
-#import <Foundation/Foundation.h>
+//#import <Foundation/Foundation.h>
+// all other headers in the Apple example code use module imports.
+@import Foundation;
 
 /*! A simple class for demultiplexing NSURLSession delegate callbacks to a per-task delegate object.
 

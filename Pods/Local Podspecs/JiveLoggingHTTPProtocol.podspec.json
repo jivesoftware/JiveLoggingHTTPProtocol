@@ -2,16 +2,17 @@
   "name": "JiveLoggingHTTPProtocol",
   "version": "0.1.0",
   "license": {
-    "type": "Apache License, Version 2.0",
+    "type": "BSD",
     "file": "LICENSE"
   },
   "summary": "An NSURLProtocol to log HTTP Requests and Responses",
   "homepage": "https://github.com/jivesoftware/JiveLoggingHTTPProtocol",
+  "social_media_url": "http://twitter.com/JiveSoftware",
   "authors": {
     "Jive Mobile": "jive-mobile@jivesoftware.com"
   },
   "source": {
-    "git": "git@git.jiveland.com:jive-kit",
+    "git": "git@github.com:jivesoftware/JiveLoggingHTTPProtocol.git",
     "tag": "0.1.0"
   },
   "platforms": {

@@ -1,3 +1,6 @@
+/*
+ File: JiveLog.h
+ 
  Disclaimer: IMPORTANT:  This Apple software is supplied to you by Apple
  Inc. ("Apple") in consideration of your agreement to the following
  terms, and your use, installation, modification or redistribution of
@@ -36,4 +39,26 @@
  STRICT LIABILITY OR OTHERWISE, EVEN IF APPLE HAS BEEN ADVISED OF THE
  POSSIBILITY OF SUCH DAMAGE.
  
- Copyright (C) 2014 Apple Inc. All Rights Reserved.
+ Copyright (C) 2014 Jive Software Inc. All Rights Reserved.
+ 
+ */
+
+@import Foundation;
+
+@interface JiveLog : NSObject
+
+- (instancetype)initWithUUIDString:(NSString *)UUIDString
+                           request:(NSURLRequest *)request;
+- (instancetype)initWithUUIDString:(NSString *)UUIDString
+                          response:(NSHTTPURLResponse *)response;
+
+- (void)print;
+
+- (void)logNewline;
+- (void)log:(NSString *)message;
+- (void)logCancel;
+- (void)logData:(NSData *)data;
+- (void)logError:(NSError *)error;
+
+@end
+

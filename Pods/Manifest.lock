@@ -9,6 +9,6 @@ EXTERNAL SOURCES:
     :path: .
 
 SPEC CHECKSUMS:
-  JiveLoggingHTTPProtocol: 36e377677631c838ea3b204acbbcda970dcfc348
+  JiveLoggingHTTPProtocol: 0ed0499fb9bbdad0f6493ee1434b5d28202c0a38
 
-COCOAPODS: 0.36.0.beta.2
+COCOAPODS: 0.36.0.rc.1

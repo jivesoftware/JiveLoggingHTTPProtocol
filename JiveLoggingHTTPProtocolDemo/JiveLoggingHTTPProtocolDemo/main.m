@@ -12,7 +12,11 @@
 
 int main(int argc, char * argv[]) {
     @autoreleasepool {
-        [JiveLoggingHTTPProtocol start];
+        // NSUserDefaults grab any program arguments with the format `-name value`.
+        // In the JiveLoggingHTTPProtocolDemo scheme, we have `-logHTTP YES` defined.
+        if ([[NSUserDefaults standardUserDefaults] boolForKey:@"logHTTP"]) {
+            [JiveLoggingHTTPProtocol start];
+        }
         return UIApplicationMain(argc, argv, nil, NSStringFromClass([AppDelegate class]));
     }
 }

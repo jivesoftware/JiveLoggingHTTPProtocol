@@ -1,1654 +1,709 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<plist version="1.0">
-<dict>
-	<key>archiveVersion</key>
-	<string>1</string>
-	<key>classes</key>
-	<dict/>
-	<key>objectVersion</key>
-	<string>46</string>
-	<key>objects</key>
-	<dict>
-		<key>005AB3580E80FC830FBFF975</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>D0BA441F93CFADFEC1B7A171</string>
-				<string>3FB889F971254108F95CF909</string>
-				<string>9A7D95A27C82F80A413D7A0B</string>
-				<string>387E0C54B8832AB59CA4B0EC</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Products</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>05D0D04EA854304296AEEC64</key>
-		<dict>
-			<key>fileRef</key>
-			<string>CB569F2562E159B472633194</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>0C09E7B8FBC0049F42A348B2</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-JiveLoggingHTTPProtocolDemo-JiveLoggingHTTPProtocol-Private.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>0C2E96822CC5B909FEE38C55</key>
-		<dict>
-			<key>fileRef</key>
-			<string>F00E13719BEFB94D2849E25E</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>0D58A052929E30E7C1DA003B</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>49673958F4E7AC57DFB22298</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Development Pods</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>0E1720135F5DBB632FB81D70</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>0C09E7B8FBC0049F42A348B2</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/Pods-JiveLoggingHTTPProtocolDemo-JiveLoggingHTTPProtocol/Pods-JiveLoggingHTTPProtocolDemo-JiveLoggingHTTPProtocol-prefix.pch</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.1</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>NO</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>0F7AF6F06703A1DFC88C59A5</key>
-		<dict>
-			<key>fileRef</key>
-			<string>F4232C2ACF94275649C4FC3E</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>11166BC04477552C5AA29C97</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Pods-JiveLoggingHTTPProtocolDemoTests-acknowledgements.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>14C2F58D4D8493E6B5EDE032</key>
-		<dict>
-			<key>fileRef</key>
-			<string>BB96DD5C23AF06687DA79E9B</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>172F71B938912BF11137DCAE</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>4EC0748F8BFE300018A391CC</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>19778FBECE23AD04A0043D65</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Pods-JiveLoggingHTTPProtocolDemo-acknowledgements.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>1AEFA344AC7780B02909079B</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>C54A5F6EE89359025E9503EC</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>1B87ED2534A9D5ABAABB90B9</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>973B559D82DB5C2207D4E771</string>
-				<string>0F7AF6F06703A1DFC88C59A5</string>
-				<string>3433AAC0CDE38D8AD4B4A514</string>
-				<string>14C2F58D4D8493E6B5EDE032</string>
-				<string>05D0D04EA854304296AEEC64</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>1D4E93AD8D4E4EC7B2824561</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>0C09E7B8FBC0049F42A348B2</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/Pods-JiveLoggingHTTPProtocolDemo-JiveLoggingHTTPProtocol/Pods-JiveLoggingHTTPProtocolDemo-JiveLoggingHTTPProtocol-prefix.pch</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.1</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>YES</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>24E6A437965B97A4B65AE1D5</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>59BA7C359F57A585BE9477AF</string>
-				<string>0D58A052929E30E7C1DA003B</string>
-				<string>5A6FF3D02FDDE64220D6CB67</string>
-				<string>005AB3580E80FC830FBFF975</string>
-				<string>918E06ED0937BC50F2EF894D</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>29C92E9826A3620CC4C58D38</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>name</key>
-			<string>Pods-JiveLoggingHTTPProtocolDemoTests-JiveLoggingHTTPProtocol-Private.xcconfig</string>
-			<key>path</key>
-			<string>../Pods-JiveLoggingHTTPProtocolDemoTests-JiveLoggingHTTPProtocol/Pods-JiveLoggingHTTPProtocolDemoTests-JiveLoggingHTTPProtocol-Private.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2A39FE526C9C88C9336CF36B</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text</string>
-			<key>path</key>
-			<string>Pods-JiveLoggingHTTPProtocolDemoTests-acknowledgements.markdown</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>30FD46CF70CF34767775CB70</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>JiveQNSURLSessionDemux.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3433AAC0CDE38D8AD4B4A514</key>
-		<dict>
-			<key>fileRef</key>
-			<string>DE005890575BF44A757BE080</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>343AF2FAE06B48C794A78E68</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>name</key>
-			<string>Pods-JiveLoggingHTTPProtocolDemoTests-JiveLoggingHTTPProtocol</string>
-			<key>target</key>
-			<string>B3827019894D012758B9DA0C</string>
-			<key>targetProxy</key>
-			<string>C68EDF0B7EC3681924D76639</string>
-		</dict>
-		<key>345BDDB049415AB7404EA1D3</key>
-		<dict>
-			<key>fileRef</key>
-			<string>72BC081ED4D71DE396408E4C</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>355C869ADCC6E8F8079D3DF9</key>
-		<dict>
-			<key>fileRef</key>
-			<string>C13ECBFAAE15B251AC6D03F9</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>3572C1591F46F24D073E702C</key>
-		<dict>
-			<key>fileRef</key>
-			<string>BB96DD5C23AF06687DA79E9B</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>387E0C54B8832AB59CA4B0EC</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>libPods-JiveLoggingHTTPProtocolDemoTests-JiveLoggingHTTPProtocol.a</string>
-			<key>path</key>
-			<string>libPods-JiveLoggingHTTPProtocolDemoTests-JiveLoggingHTTPProtocol.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>3A230CC68121F6AB9E3A4671</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>B816676D673EA8A4A3AE73E9</string>
-				<string>85B0A7C6F7DA576E7AFDA76C</string>
-				<string>9F3E0FB4DF5203E902AB2C7C</string>
-				<string>8D2FE6A2A9C773FA9EFFD3BB</string>
-			</array>
-			<key>isa</key>
-			<string>PBXHeadersBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>3FB889F971254108F95CF909</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>libPods-JiveLoggingHTTPProtocolDemo-JiveLoggingHTTPProtocol.a</string>
-			<key>path</key>
-			<string>libPods-JiveLoggingHTTPProtocolDemo-JiveLoggingHTTPProtocol.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>41517E399D1D1CBB9711CCE8</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text</string>
-			<key>path</key>
-			<string>Pods-JiveLoggingHTTPProtocolDemo-acknowledgements.markdown</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>440427DBFFEF40E351AB9411</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>6315D62174B048694541A5DB</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.1</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>YES</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PODS_ROOT</key>
-				<string>$(SRCROOT)</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>49673958F4E7AC57DFB22298</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>F23494999E1F04B862BEDB7C</string>
-				<string>4A0014BD3ADC658D57849C14</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>JiveLoggingHTTPProtocol</string>
-			<key>path</key>
-			<string>..</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4A0014BD3ADC658D57849C14</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>D1A89F1998C1EA414BE8778D</string>
-				<string>0C09E7B8FBC0049F42A348B2</string>
-				<string>CB569F2562E159B472633194</string>
-				<string>DADA4910779B8EC557C1C8FF</string>
-				<string>8CAC71EE6ECC2A7B41D62842</string>
-				<string>29C92E9826A3620CC4C58D38</string>
-				<string>C13ECBFAAE15B251AC6D03F9</string>
-				<string>6CF79E3A94C13B83E30E98D3</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Support Files</string>
-			<key>path</key>
-			<string>Pods/Target Support Files/Pods-JiveLoggingHTTPProtocolDemo-JiveLoggingHTTPProtocol</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4AEDDBFD77E1C2253554024E</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>660548AE813C51FAFF8BA9D8</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.1</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>NO</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PODS_ROOT</key>
-				<string>$(SRCROOT)</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>4C3D78EC3F0C08B643D4F18C</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-JiveLoggingHTTPProtocolDemoTests.release.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4EC0748F8BFE300018A391CC</key>
-		<dict>
-			<key>fileRef</key>
-			<string>93FBFFAE17F17A445AA40406</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>52CFA51ACE0B911CD232CAC5</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>29C92E9826A3620CC4C58D38</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/Pods-JiveLoggingHTTPProtocolDemoTests-JiveLoggingHTTPProtocol/Pods-JiveLoggingHTTPProtocolDemoTests-JiveLoggingHTTPProtocol-prefix.pch</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.1</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>NO</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>5510FB35D4A10C2485E6852D</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>Pods-JiveLoggingHTTPProtocolDemoTests-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>59BA7C359F57A585BE9477AF</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text</string>
-			<key>name</key>
-			<string>Podfile</string>
-			<key>path</key>
-			<string>../Podfile</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-			<key>xcLanguageSpecificationIdentifier</key>
-			<string>xcode.lang.ruby</string>
-		</dict>
-		<key>5A6FF3D02FDDE64220D6CB67</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>AE40AE3D3A400ADC2F1F10ED</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Frameworks</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>5DDD17E2BFF65695BE141A6C</key>
-		<dict>
-			<key>fileRef</key>
-			<string>93FBFFAE17F17A445AA40406</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>5EE5CB34B483BBBC425BBBFB</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>29C92E9826A3620CC4C58D38</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/Pods-JiveLoggingHTTPProtocolDemoTests-JiveLoggingHTTPProtocol/Pods-JiveLoggingHTTPProtocolDemoTests-JiveLoggingHTTPProtocol-prefix.pch</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.1</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>YES</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>6114C8DF8101A96A34F416F5</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>JiveLoggingHTTPProtocol.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>617B1F360512BFDA70DD4E4A</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.script.sh</string>
-			<key>path</key>
-			<string>Pods-JiveLoggingHTTPProtocolDemoTests-resources.sh</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>6315D62174B048694541A5DB</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-JiveLoggingHTTPProtocolDemo.debug.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>64F15349DE2ABCE43ADDBCFA</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>BABF4866CFE99D4A66B78874</string>
-				<string>D60169A27B7F1B007C945E21</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>659727E935A6E51AEE5D2585</key>
-		<dict>
-			<key>fileRef</key>
-			<string>F7F633A48B1942BBA70689DC</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>660548AE813C51FAFF8BA9D8</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-JiveLoggingHTTPProtocolDemo.release.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>665D8A8A59515D9C3E07D14C</key>
-		<dict>
-			<key>fileRef</key>
-			<string>F4232C2ACF94275649C4FC3E</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>6CF79E3A94C13B83E30E98D3</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>Pods-JiveLoggingHTTPProtocolDemoTests-JiveLoggingHTTPProtocol-prefix.pch</string>
-			<key>path</key>
-			<string>../Pods-JiveLoggingHTTPProtocolDemoTests-JiveLoggingHTTPProtocol/Pods-JiveLoggingHTTPProtocolDemoTests-JiveLoggingHTTPProtocol-prefix.pch</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>6E258063CBC99FBCC0E2F5CB</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>JiveCacheStoragePolicy.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>6F402B3A956A219984E2EF38</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-JiveLoggingHTTPProtocolDemoTests.debug.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>72BC081ED4D71DE396408E4C</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>JiveCanonicalRequest.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>78F0F71D1A69EB0721BDF850</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>name</key>
-			<string>Pods-JiveLoggingHTTPProtocolDemo-JiveLoggingHTTPProtocol</string>
-			<key>target</key>
-			<string>FBC7C88E760E5FF7A6EF9D1B</string>
-			<key>targetProxy</key>
-			<string>A07ECF7ED0FE6D949D75301F</string>
-		</dict>
-		<key>7FA3E20C3F9E7EF554A73CB1</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>5DDD17E2BFF65695BE141A6C</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>83C0FDEE9D7A24F72B235377</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>5EE5CB34B483BBBC425BBBFB</string>
-				<string>52CFA51ACE0B911CD232CAC5</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>85B0A7C6F7DA576E7AFDA76C</key>
-		<dict>
-			<key>fileRef</key>
-			<string>72BC081ED4D71DE396408E4C</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>888A4F36D376C481EB008309</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>440427DBFFEF40E351AB9411</string>
-				<string>4AEDDBFD77E1C2253554024E</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>89DF5622190440AC17FA057D</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.script.sh</string>
-			<key>path</key>
-			<string>Pods-JiveLoggingHTTPProtocolDemo-resources.sh</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8CAC71EE6ECC2A7B41D62842</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>name</key>
-			<string>Pods-JiveLoggingHTTPProtocolDemoTests-JiveLoggingHTTPProtocol.xcconfig</string>
-			<key>path</key>
-			<string>../Pods-JiveLoggingHTTPProtocolDemoTests-JiveLoggingHTTPProtocol/Pods-JiveLoggingHTTPProtocolDemoTests-JiveLoggingHTTPProtocol.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8D2FE6A2A9C773FA9EFFD3BB</key>
-		<dict>
-			<key>fileRef</key>
-			<string>30FD46CF70CF34767775CB70</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>918E06ED0937BC50F2EF894D</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>FE2D389E181D1F49CE1C94F5</string>
-				<string>FA23784B2FC800EA55BA4BD5</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Targets Support Files</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>93FBFFAE17F17A445AA40406</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>Foundation.framework</string>
-			<key>path</key>
-			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework</string>
-			<key>sourceTree</key>
-			<string>DEVELOPER_DIR</string>
-		</dict>
-		<key>94CE16B8A103F2F5E60B1221</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>AC9C7012A764E70AF8AF85E6</string>
-				<string>A6B3BE4E17B6A9911593B253</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>973B559D82DB5C2207D4E771</key>
-		<dict>
-			<key>fileRef</key>
-			<string>F00E13719BEFB94D2849E25E</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>97C9B6D33EA7959A17C60964</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>659727E935A6E51AEE5D2585</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>9A7D95A27C82F80A413D7A0B</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>libPods-JiveLoggingHTTPProtocolDemoTests.a</string>
-			<key>path</key>
-			<string>libPods-JiveLoggingHTTPProtocolDemoTests.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>9F3E0FB4DF5203E902AB2C7C</key>
-		<dict>
-			<key>fileRef</key>
-			<string>6114C8DF8101A96A34F416F5</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>A07ECF7ED0FE6D949D75301F</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>ADE8E30DCDEC798F901288BB</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>FBC7C88E760E5FF7A6EF9D1B</string>
-			<key>remoteInfo</key>
-			<string>Pods-JiveLoggingHTTPProtocolDemo-JiveLoggingHTTPProtocol</string>
-		</dict>
-		<key>A6B3BE4E17B6A9911593B253</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>4C3D78EC3F0C08B643D4F18C</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.1</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>NO</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PODS_ROOT</key>
-				<string>$(SRCROOT)</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>AB659D4E3478AD4E3E940464</key>
-		<dict>
-			<key>fileRef</key>
-			<string>6E258063CBC99FBCC0E2F5CB</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>AC9C7012A764E70AF8AF85E6</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>6F402B3A956A219984E2EF38</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.1</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>YES</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PODS_ROOT</key>
-				<string>$(SRCROOT)</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>ADE8E30DCDEC798F901288BB</key>
-		<dict>
-			<key>attributes</key>
-			<dict>
-				<key>LastUpgradeCheck</key>
-				<string>0510</string>
-			</dict>
-			<key>buildConfigurationList</key>
-			<string>64F15349DE2ABCE43ADDBCFA</string>
-			<key>compatibilityVersion</key>
-			<string>Xcode 3.2</string>
-			<key>developmentRegion</key>
-			<string>English</string>
-			<key>hasScannedForEncodings</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXProject</string>
-			<key>knownRegions</key>
-			<array>
-				<string>en</string>
-			</array>
-			<key>mainGroup</key>
-			<string>24E6A437965B97A4B65AE1D5</string>
-			<key>productRefGroup</key>
-			<string>005AB3580E80FC830FBFF975</string>
-			<key>projectDirPath</key>
-			<string></string>
-			<key>projectReferences</key>
-			<array/>
-			<key>projectRoot</key>
-			<string></string>
-			<key>targets</key>
-			<array>
-				<string>CAF7DEB9EA1CFFC86ACE8426</string>
-				<string>FBC7C88E760E5FF7A6EF9D1B</string>
-				<string>DA9BC35869ADD2D4293D2A3F</string>
-				<string>B3827019894D012758B9DA0C</string>
-			</array>
-		</dict>
-		<key>AE40AE3D3A400ADC2F1F10ED</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>93FBFFAE17F17A445AA40406</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>iOS</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>B18D8022740E3EE7530DC744</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>0C2E96822CC5B909FEE38C55</string>
-				<string>665D8A8A59515D9C3E07D14C</string>
-				<string>C1EF0B166FB102EDFBA7983D</string>
-				<string>3572C1591F46F24D073E702C</string>
-				<string>355C869ADCC6E8F8079D3DF9</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>B3827019894D012758B9DA0C</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>83C0FDEE9D7A24F72B235377</string>
-			<key>buildPhases</key>
-			<array>
-				<string>B18D8022740E3EE7530DC744</string>
-				<string>7FA3E20C3F9E7EF554A73CB1</string>
-				<string>3A230CC68121F6AB9E3A4671</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Pods-JiveLoggingHTTPProtocolDemoTests-JiveLoggingHTTPProtocol</string>
-			<key>productName</key>
-			<string>Pods-JiveLoggingHTTPProtocolDemoTests-JiveLoggingHTTPProtocol</string>
-			<key>productReference</key>
-			<string>387E0C54B8832AB59CA4B0EC</string>
-			<key>productType</key>
-			<string>com.apple.product-type.library.static</string>
-		</dict>
-		<key>B5717950655B910B3713F2FF</key>
-		<dict>
-			<key>fileRef</key>
-			<string>93FBFFAE17F17A445AA40406</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>B816676D673EA8A4A3AE73E9</key>
-		<dict>
-			<key>fileRef</key>
-			<string>6E258063CBC99FBCC0E2F5CB</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>B913BD89C6912D191F7263D2</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>1D4E93AD8D4E4EC7B2824561</string>
-				<string>0E1720135F5DBB632FB81D70</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>BABF4866CFE99D4A66B78874</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES</string>
-				<key>CLANG_WARN_UNREACHABLE_CODE</key>
-				<string>YES</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.1</string>
-				<key>ONLY_ACTIVE_ARCH</key>
-				<string>YES</string>
-				<key>STRIP_INSTALLED_PRODUCT</key>
-				<string>NO</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>BB96DD5C23AF06687DA79E9B</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>JiveQNSURLSessionDemux.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>BD7633D97D7B98AB00874DA2</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>6E258063CBC99FBCC0E2F5CB</string>
-				<string>F00E13719BEFB94D2849E25E</string>
-				<string>72BC081ED4D71DE396408E4C</string>
-				<string>F4232C2ACF94275649C4FC3E</string>
-				<string>6114C8DF8101A96A34F416F5</string>
-				<string>DE005890575BF44A757BE080</string>
-				<string>30FD46CF70CF34767775CB70</string>
-				<string>BB96DD5C23AF06687DA79E9B</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>JiveLoggingHTTPProtocol</string>
-			<key>path</key>
-			<string>JiveLoggingHTTPProtocol</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>BFDEEE412EDA3F2186AE56D9</key>
-		<dict>
-			<key>fileRef</key>
-			<string>30FD46CF70CF34767775CB70</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>C13ECBFAAE15B251AC6D03F9</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>Pods-JiveLoggingHTTPProtocolDemoTests-JiveLoggingHTTPProtocol-dummy.m</string>
-			<key>path</key>
-			<string>../Pods-JiveLoggingHTTPProtocolDemoTests-JiveLoggingHTTPProtocol/Pods-JiveLoggingHTTPProtocolDemoTests-JiveLoggingHTTPProtocol-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C1EF0B166FB102EDFBA7983D</key>
-		<dict>
-			<key>fileRef</key>
-			<string>DE005890575BF44A757BE080</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>C2A849885D20AAA06FAE7238</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>AB659D4E3478AD4E3E940464</string>
-				<string>345BDDB049415AB7404EA1D3</string>
-				<string>D262DC1FBB8CF2BD837357CB</string>
-				<string>BFDEEE412EDA3F2186AE56D9</string>
-			</array>
-			<key>isa</key>
-			<string>PBXHeadersBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>C54A5F6EE89359025E9503EC</key>
-		<dict>
-			<key>fileRef</key>
-			<string>5510FB35D4A10C2485E6852D</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>C68EDF0B7EC3681924D76639</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>ADE8E30DCDEC798F901288BB</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>B3827019894D012758B9DA0C</string>
-			<key>remoteInfo</key>
-			<string>Pods-JiveLoggingHTTPProtocolDemoTests-JiveLoggingHTTPProtocol</string>
-		</dict>
-		<key>CAF7DEB9EA1CFFC86ACE8426</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>888A4F36D376C481EB008309</string>
-			<key>buildPhases</key>
-			<array>
-				<string>97C9B6D33EA7959A17C60964</string>
-				<string>D88227C16190CE38DE112C0F</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>78F0F71D1A69EB0721BDF850</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Pods-JiveLoggingHTTPProtocolDemo</string>
-			<key>productName</key>
-			<string>Pods-JiveLoggingHTTPProtocolDemo</string>
-			<key>productReference</key>
-			<string>D0BA441F93CFADFEC1B7A171</string>
-			<key>productType</key>
-			<string>com.apple.product-type.library.static</string>
-		</dict>
-		<key>CB569F2562E159B472633194</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>Pods-JiveLoggingHTTPProtocolDemo-JiveLoggingHTTPProtocol-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>CEB42524D19815838C366C12</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>Pods-JiveLoggingHTTPProtocolDemo-environment.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D0BA441F93CFADFEC1B7A171</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>libPods-JiveLoggingHTTPProtocolDemo.a</string>
-			<key>path</key>
-			<string>libPods-JiveLoggingHTTPProtocolDemo.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>D1A89F1998C1EA414BE8778D</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-JiveLoggingHTTPProtocolDemo-JiveLoggingHTTPProtocol.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D22B479B5E842B9C6817169F</key>
-		<dict>
-			<key>fileRef</key>
-			<string>93FBFFAE17F17A445AA40406</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>D262DC1FBB8CF2BD837357CB</key>
-		<dict>
-			<key>fileRef</key>
-			<string>6114C8DF8101A96A34F416F5</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>D60169A27B7F1B007C945E21</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES</string>
-				<key>CLANG_WARN_UNREACHABLE_CODE</key>
-				<string>YES</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>ENABLE_NS_ASSERTIONS</key>
-				<string>NO</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>RELEASE=1</string>
-				</array>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.1</string>
-				<key>STRIP_INSTALLED_PRODUCT</key>
-				<string>NO</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>D88227C16190CE38DE112C0F</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>B5717950655B910B3713F2FF</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>DA9BC35869ADD2D4293D2A3F</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>94CE16B8A103F2F5E60B1221</string>
-			<key>buildPhases</key>
-			<array>
-				<string>1AEFA344AC7780B02909079B</string>
-				<string>F7F509D175F47F3DD470E13C</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>343AF2FAE06B48C794A78E68</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Pods-JiveLoggingHTTPProtocolDemoTests</string>
-			<key>productName</key>
-			<string>Pods-JiveLoggingHTTPProtocolDemoTests</string>
-			<key>productReference</key>
-			<string>9A7D95A27C82F80A413D7A0B</string>
-			<key>productType</key>
-			<string>com.apple.product-type.library.static</string>
-		</dict>
-		<key>DADA4910779B8EC557C1C8FF</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>Pods-JiveLoggingHTTPProtocolDemo-JiveLoggingHTTPProtocol-prefix.pch</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DE005890575BF44A757BE080</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>JiveLoggingHTTPProtocol.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>F00E13719BEFB94D2849E25E</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>JiveCacheStoragePolicy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>F062E3C8AEE68D8942D36149</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>Pods-JiveLoggingHTTPProtocolDemoTests-environment.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>F23494999E1F04B862BEDB7C</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>BD7633D97D7B98AB00874DA2</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Source</string>
-			<key>path</key>
-			<string>Source</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>F4232C2ACF94275649C4FC3E</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>JiveCanonicalRequest.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>F7F509D175F47F3DD470E13C</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>D22B479B5E842B9C6817169F</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>F7F633A48B1942BBA70689DC</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>Pods-JiveLoggingHTTPProtocolDemo-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>FA23784B2FC800EA55BA4BD5</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>2A39FE526C9C88C9336CF36B</string>
-				<string>11166BC04477552C5AA29C97</string>
-				<string>5510FB35D4A10C2485E6852D</string>
-				<string>F062E3C8AEE68D8942D36149</string>
-				<string>617B1F360512BFDA70DD4E4A</string>
-				<string>6F402B3A956A219984E2EF38</string>
-				<string>4C3D78EC3F0C08B643D4F18C</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods-JiveLoggingHTTPProtocolDemoTests</string>
-			<key>path</key>
-			<string>Target Support Files/Pods-JiveLoggingHTTPProtocolDemoTests</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>FBC7C88E760E5FF7A6EF9D1B</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>B913BD89C6912D191F7263D2</string>
-			<key>buildPhases</key>
-			<array>
-				<string>1B87ED2534A9D5ABAABB90B9</string>
-				<string>172F71B938912BF11137DCAE</string>
-				<string>C2A849885D20AAA06FAE7238</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Pods-JiveLoggingHTTPProtocolDemo-JiveLoggingHTTPProtocol</string>
-			<key>productName</key>
-			<string>Pods-JiveLoggingHTTPProtocolDemo-JiveLoggingHTTPProtocol</string>
-			<key>productReference</key>
-			<string>3FB889F971254108F95CF909</string>
-			<key>productType</key>
-			<string>com.apple.product-type.library.static</string>
-		</dict>
-		<key>FE2D389E181D1F49CE1C94F5</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>41517E399D1D1CBB9711CCE8</string>
-				<string>19778FBECE23AD04A0043D65</string>
-				<string>F7F633A48B1942BBA70689DC</string>
-				<string>CEB42524D19815838C366C12</string>
-				<string>89DF5622190440AC17FA057D</string>
-				<string>6315D62174B048694541A5DB</string>
-				<string>660548AE813C51FAFF8BA9D8</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods-JiveLoggingHTTPProtocolDemo</string>
-			<key>path</key>
-			<string>Target Support Files/Pods-JiveLoggingHTTPProtocolDemo</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-	</dict>
-	<key>rootObject</key>
-	<string>ADE8E30DCDEC798F901288BB</string>
-</dict>
-</plist>
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0D809B7B328751463FFEB29E /* JiveLoggingHTTPProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E0C6F99E7E3618B0FFAA9CF /* JiveLoggingHTTPProtocol.m */; };
+		267D059E79388F88728EA1C0 /* JiveLoggingHTTPProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = C41D7B11DB5831F39242A0CB /* JiveLoggingHTTPProtocol.h */; };
+		26E31CF3EBA7C5782E47DE89 /* JiveLoggingHTTPProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = C41D7B11DB5831F39242A0CB /* JiveLoggingHTTPProtocol.h */; };
+		350FCF812B0A54395EF0B779 /* JiveCacheStoragePolicy.h in Headers */ = {isa = PBXBuildFile; fileRef = 692ECC4345D699CF49E89E6F /* JiveCacheStoragePolicy.h */; };
+		4289789CC224003394267790 /* JiveLog.h in Headers */ = {isa = PBXBuildFile; fileRef = 7EA39F96E8FAE846CC3415B5 /* JiveLog.h */; };
+		4CD109DCC66E8809972AE47A /* JiveLog.h in Headers */ = {isa = PBXBuildFile; fileRef = 7EA39F96E8FAE846CC3415B5 /* JiveLog.h */; };
+		4DE7554D6D6433145DD177BA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 568252AB72723DC2EE1A0FDC /* Foundation.framework */; };
+		500DAF97DCC2433341C612B1 /* JiveCanonicalRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = AC24C938B0CDC65CB62567A7 /* JiveCanonicalRequest.m */; };
+		5ED593361BC8C3462601A431 /* JiveLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B581371C42375F8DB0CC07 /* JiveLog.m */; };
+		63F0BF3C38026A463A3D9C4F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 568252AB72723DC2EE1A0FDC /* Foundation.framework */; };
+		6B683A562BC059880E47BFF9 /* JiveCacheStoragePolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = 40AC3F9390AFD9A72483133E /* JiveCacheStoragePolicy.m */; };
+		752DB4AC0062C7B2807A853E /* Pods-JiveLoggingHTTPProtocolDemo-JiveLoggingHTTPProtocol-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F8D5840E9628FFD32D1715E4 /* Pods-JiveLoggingHTTPProtocolDemo-JiveLoggingHTTPProtocol-dummy.m */; };
+		75F8294F430ED572940BAE61 /* JiveQNSURLSessionDemux.h in Headers */ = {isa = PBXBuildFile; fileRef = 796A9CAE2EC0B5750437CDA1 /* JiveQNSURLSessionDemux.h */; };
+		8557CE442E9D2C6E68DB3A28 /* JiveCanonicalRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = AC24C938B0CDC65CB62567A7 /* JiveCanonicalRequest.m */; };
+		8B036E5CCA520663B4EA9A71 /* Pods-JiveLoggingHTTPProtocolDemoTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E60F02A03D02B7044A29B477 /* Pods-JiveLoggingHTTPProtocolDemoTests-dummy.m */; };
+		A30697368FDED2B7D755B1C1 /* JiveCanonicalRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = AB954FD02D7EC476F7A96BFE /* JiveCanonicalRequest.h */; };
+		A593BDBED38D6AE325194C8C /* JiveQNSURLSessionDemux.m in Sources */ = {isa = PBXBuildFile; fileRef = 575E057AE1B4AD32F14EB131 /* JiveQNSURLSessionDemux.m */; };
+		B495EEE71A90FF2BA056BA1C /* Pods-JiveLoggingHTTPProtocolDemoTests-JiveLoggingHTTPProtocol-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FA29E3DD53B08EAD882440C /* Pods-JiveLoggingHTTPProtocolDemoTests-JiveLoggingHTTPProtocol-dummy.m */; };
+		B9A1546F5BBF27E164466B44 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 568252AB72723DC2EE1A0FDC /* Foundation.framework */; };
+		BAD3998E0E21BBDA611F0CC8 /* JiveLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B581371C42375F8DB0CC07 /* JiveLog.m */; };
+		BCECBA9A03442FB93CC12EBD /* JiveCanonicalRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = AB954FD02D7EC476F7A96BFE /* JiveCanonicalRequest.h */; };
+		C24777B35889382ED6A0D4C4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 568252AB72723DC2EE1A0FDC /* Foundation.framework */; };
+		C9C556EDDA298FC80AC74AF5 /* JiveCacheStoragePolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = 40AC3F9390AFD9A72483133E /* JiveCacheStoragePolicy.m */; };
+		E44379CA464F0AF1E8023FE3 /* JiveQNSURLSessionDemux.m in Sources */ = {isa = PBXBuildFile; fileRef = 575E057AE1B4AD32F14EB131 /* JiveQNSURLSessionDemux.m */; };
+		E4E0B1EDCBBB84DE733A291A /* JiveCacheStoragePolicy.h in Headers */ = {isa = PBXBuildFile; fileRef = 692ECC4345D699CF49E89E6F /* JiveCacheStoragePolicy.h */; };
+		E9D35F1E43083832029BDD3B /* JiveLoggingHTTPProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E0C6F99E7E3618B0FFAA9CF /* JiveLoggingHTTPProtocol.m */; };
+		FAFDA15C3A1E077D5ACFD698 /* JiveQNSURLSessionDemux.h in Headers */ = {isa = PBXBuildFile; fileRef = 796A9CAE2EC0B5750437CDA1 /* JiveQNSURLSessionDemux.h */; };
+		FDA31E92A460D269F7282602 /* Pods-JiveLoggingHTTPProtocolDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C55992203590FAB60089AD4B /* Pods-JiveLoggingHTTPProtocolDemo-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		247DE1EE495AADEB58DA5599 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 701D6E8F59BCD8256B37B1BA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 202D97123E81B4C1F68EC26B;
+			remoteInfo = "Pods-JiveLoggingHTTPProtocolDemo-JiveLoggingHTTPProtocol";
+		};
+		D24E9BEB451D1A079C358D3C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 701D6E8F59BCD8256B37B1BA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F9DC1B2A075161853295E846;
+			remoteInfo = "Pods-JiveLoggingHTTPProtocolDemoTests-JiveLoggingHTTPProtocol";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		020719467F3CD93270C47470 /* Pods-JiveLoggingHTTPProtocolDemoTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JiveLoggingHTTPProtocolDemoTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		063058755E1DDBC013E16924 /* Pods-JiveLoggingHTTPProtocolDemoTests-JiveLoggingHTTPProtocol.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JiveLoggingHTTPProtocolDemoTests-JiveLoggingHTTPProtocol.xcconfig"; path = "../Pods-JiveLoggingHTTPProtocolDemoTests-JiveLoggingHTTPProtocol/Pods-JiveLoggingHTTPProtocolDemoTests-JiveLoggingHTTPProtocol.xcconfig"; sourceTree = "<group>"; };
+		0E0C6F99E7E3618B0FFAA9CF /* JiveLoggingHTTPProtocol.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = JiveLoggingHTTPProtocol.m; sourceTree = "<group>"; };
+		14ACFFB999CDB2AD7F58123B /* Pods-JiveLoggingHTTPProtocolDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JiveLoggingHTTPProtocolDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1A7405CD3610980B8A7C138B /* Pods-JiveLoggingHTTPProtocolDemoTests-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JiveLoggingHTTPProtocolDemoTests-environment.h"; sourceTree = "<group>"; };
+		22B581371C42375F8DB0CC07 /* JiveLog.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = JiveLog.m; sourceTree = "<group>"; };
+		337C78080D5BC0B9CD14094C /* Pods-JiveLoggingHTTPProtocolDemo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JiveLoggingHTTPProtocolDemo-resources.sh"; sourceTree = "<group>"; };
+		40AC3F9390AFD9A72483133E /* JiveCacheStoragePolicy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = JiveCacheStoragePolicy.m; sourceTree = "<group>"; };
+		4B469EAC0EE39B0E1894D433 /* Pods-JiveLoggingHTTPProtocolDemoTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JiveLoggingHTTPProtocolDemoTests-resources.sh"; sourceTree = "<group>"; };
+		568252AB72723DC2EE1A0FDC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		575E057AE1B4AD32F14EB131 /* JiveQNSURLSessionDemux.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = JiveQNSURLSessionDemux.m; sourceTree = "<group>"; };
+		585E2A3D37145885B0DCF9DE /* Pods-JiveLoggingHTTPProtocolDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JiveLoggingHTTPProtocolDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5A96EAAC03F41276487DD7DA /* Pods-JiveLoggingHTTPProtocolDemo-JiveLoggingHTTPProtocol.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JiveLoggingHTTPProtocolDemo-JiveLoggingHTTPProtocol.xcconfig"; sourceTree = "<group>"; };
+		629E72578F88C2DC255CFA41 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		692ECC4345D699CF49E89E6F /* JiveCacheStoragePolicy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JiveCacheStoragePolicy.h; sourceTree = "<group>"; };
+		69FD9CF70F0F99F0CE9702EC /* Pods-JiveLoggingHTTPProtocolDemoTests-JiveLoggingHTTPProtocol-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JiveLoggingHTTPProtocolDemoTests-JiveLoggingHTTPProtocol-Private.xcconfig"; path = "../Pods-JiveLoggingHTTPProtocolDemoTests-JiveLoggingHTTPProtocol/Pods-JiveLoggingHTTPProtocolDemoTests-JiveLoggingHTTPProtocol-Private.xcconfig"; sourceTree = "<group>"; };
+		75187259B7C8C1B9F89A73B9 /* Pods-JiveLoggingHTTPProtocolDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JiveLoggingHTTPProtocolDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		796A9CAE2EC0B5750437CDA1 /* JiveQNSURLSessionDemux.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JiveQNSURLSessionDemux.h; sourceTree = "<group>"; };
+		7EA39F96E8FAE846CC3415B5 /* JiveLog.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JiveLog.h; sourceTree = "<group>"; };
+		7FA29E3DD53B08EAD882440C /* Pods-JiveLoggingHTTPProtocolDemoTests-JiveLoggingHTTPProtocol-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Pods-JiveLoggingHTTPProtocolDemoTests-JiveLoggingHTTPProtocol-dummy.m"; path = "../Pods-JiveLoggingHTTPProtocolDemoTests-JiveLoggingHTTPProtocol/Pods-JiveLoggingHTTPProtocolDemoTests-JiveLoggingHTTPProtocol-dummy.m"; sourceTree = "<group>"; };
+		84C644EB3ABFB1B2890ADFFF /* Pods-JiveLoggingHTTPProtocolDemo-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JiveLoggingHTTPProtocolDemo-environment.h"; sourceTree = "<group>"; };
+		91AFDF22EB7C0059E194210C /* Pods-JiveLoggingHTTPProtocolDemo-JiveLoggingHTTPProtocol-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JiveLoggingHTTPProtocolDemo-JiveLoggingHTTPProtocol-Private.xcconfig"; sourceTree = "<group>"; };
+		9A63ED0278C1857516344F32 /* Pods-JiveLoggingHTTPProtocolDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JiveLoggingHTTPProtocolDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		AB954FD02D7EC476F7A96BFE /* JiveCanonicalRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JiveCanonicalRequest.h; sourceTree = "<group>"; };
+		ABD37857269EAD3DE57046F6 /* libPods-JiveLoggingHTTPProtocolDemoTests-JiveLoggingHTTPProtocol.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JiveLoggingHTTPProtocolDemoTests-JiveLoggingHTTPProtocol.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC24C938B0CDC65CB62567A7 /* JiveCanonicalRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = JiveCanonicalRequest.m; sourceTree = "<group>"; };
+		B17637665B8321116193A767 /* Pods-JiveLoggingHTTPProtocolDemoTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JiveLoggingHTTPProtocolDemoTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		BB4E18E0C4E123CBEBD188DC /* Pods-JiveLoggingHTTPProtocolDemoTests-JiveLoggingHTTPProtocol-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-JiveLoggingHTTPProtocolDemoTests-JiveLoggingHTTPProtocol-prefix.pch"; path = "../Pods-JiveLoggingHTTPProtocolDemoTests-JiveLoggingHTTPProtocol/Pods-JiveLoggingHTTPProtocolDemoTests-JiveLoggingHTTPProtocol-prefix.pch"; sourceTree = "<group>"; };
+		C3B96788F21A7EAEA77E2ADB /* libPods-JiveLoggingHTTPProtocolDemo-JiveLoggingHTTPProtocol.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JiveLoggingHTTPProtocolDemo-JiveLoggingHTTPProtocol.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C41D7B11DB5831F39242A0CB /* JiveLoggingHTTPProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JiveLoggingHTTPProtocol.h; sourceTree = "<group>"; };
+		C55992203590FAB60089AD4B /* Pods-JiveLoggingHTTPProtocolDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JiveLoggingHTTPProtocolDemo-dummy.m"; sourceTree = "<group>"; };
+		C8A89594172EA450AAD88C06 /* Pods-JiveLoggingHTTPProtocolDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JiveLoggingHTTPProtocolDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		E05FC897A832252DB2BA790C /* libPods-JiveLoggingHTTPProtocolDemoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JiveLoggingHTTPProtocolDemoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E60F02A03D02B7044A29B477 /* Pods-JiveLoggingHTTPProtocolDemoTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JiveLoggingHTTPProtocolDemoTests-dummy.m"; sourceTree = "<group>"; };
+		E662DDD912FD7378D7B02487 /* Pods-JiveLoggingHTTPProtocolDemo-JiveLoggingHTTPProtocol-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JiveLoggingHTTPProtocolDemo-JiveLoggingHTTPProtocol-prefix.pch"; sourceTree = "<group>"; };
+		E9881A94DD5C02F92AB64D23 /* libPods-JiveLoggingHTTPProtocolDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JiveLoggingHTTPProtocolDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8D5840E9628FFD32D1715E4 /* Pods-JiveLoggingHTTPProtocolDemo-JiveLoggingHTTPProtocol-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JiveLoggingHTTPProtocolDemo-JiveLoggingHTTPProtocol-dummy.m"; sourceTree = "<group>"; };
+		FCC162A0B10078FB7C4E1211 /* Pods-JiveLoggingHTTPProtocolDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JiveLoggingHTTPProtocolDemo.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		884BDBB6876F28F54C5CBC8E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C24777B35889382ED6A0D4C4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A21BF97A0EBC43773493DC8E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63F0BF3C38026A463A3D9C4F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9F4843FDF8093EC02E4CF86 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9A1546F5BBF27E164466B44 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE4C3FADA6840547AD7A7776 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DE7554D6D6433145DD177BA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		15C313691AE97479DE121B05 /* Pods-JiveLoggingHTTPProtocolDemo */ = {
+			isa = PBXGroup;
+			children = (
+				14ACFFB999CDB2AD7F58123B /* Pods-JiveLoggingHTTPProtocolDemo-acknowledgements.markdown */,
+				C8A89594172EA450AAD88C06 /* Pods-JiveLoggingHTTPProtocolDemo-acknowledgements.plist */,
+				C55992203590FAB60089AD4B /* Pods-JiveLoggingHTTPProtocolDemo-dummy.m */,
+				84C644EB3ABFB1B2890ADFFF /* Pods-JiveLoggingHTTPProtocolDemo-environment.h */,
+				337C78080D5BC0B9CD14094C /* Pods-JiveLoggingHTTPProtocolDemo-resources.sh */,
+				9A63ED0278C1857516344F32 /* Pods-JiveLoggingHTTPProtocolDemo.debug.xcconfig */,
+				FCC162A0B10078FB7C4E1211 /* Pods-JiveLoggingHTTPProtocolDemo.release.xcconfig */,
+			);
+			name = "Pods-JiveLoggingHTTPProtocolDemo";
+			path = "Target Support Files/Pods-JiveLoggingHTTPProtocolDemo";
+			sourceTree = "<group>";
+		};
+		1F6FCC0803D27290828B2333 = {
+			isa = PBXGroup;
+			children = (
+				629E72578F88C2DC255CFA41 /* Podfile */,
+				F2EB4CD6E69EDB39D9A62721 /* Development Pods */,
+				EF7B7E0C008D910E36BB44BD /* Frameworks */,
+				7BE918F818BBCC5EFCFD254C /* Products */,
+				4681B23F0E7A8FB4CEC3021D /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		1FB5BC90117CA32258DD933F /* JiveLoggingHTTPProtocol */ = {
+			isa = PBXGroup;
+			children = (
+				CD060D9FDD445E2FDF0F973C /* Source */,
+				ED4CA98DD296F7BFBD0E62C2 /* Support Files */,
+			);
+			name = JiveLoggingHTTPProtocol;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		4681B23F0E7A8FB4CEC3021D /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				15C313691AE97479DE121B05 /* Pods-JiveLoggingHTTPProtocolDemo */,
+				95ECF93E3B00114CBF5491B5 /* Pods-JiveLoggingHTTPProtocolDemoTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7BE918F818BBCC5EFCFD254C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E9881A94DD5C02F92AB64D23 /* libPods-JiveLoggingHTTPProtocolDemo.a */,
+				C3B96788F21A7EAEA77E2ADB /* libPods-JiveLoggingHTTPProtocolDemo-JiveLoggingHTTPProtocol.a */,
+				E05FC897A832252DB2BA790C /* libPods-JiveLoggingHTTPProtocolDemoTests.a */,
+				ABD37857269EAD3DE57046F6 /* libPods-JiveLoggingHTTPProtocolDemoTests-JiveLoggingHTTPProtocol.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		95ECF93E3B00114CBF5491B5 /* Pods-JiveLoggingHTTPProtocolDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				020719467F3CD93270C47470 /* Pods-JiveLoggingHTTPProtocolDemoTests-acknowledgements.markdown */,
+				B17637665B8321116193A767 /* Pods-JiveLoggingHTTPProtocolDemoTests-acknowledgements.plist */,
+				E60F02A03D02B7044A29B477 /* Pods-JiveLoggingHTTPProtocolDemoTests-dummy.m */,
+				1A7405CD3610980B8A7C138B /* Pods-JiveLoggingHTTPProtocolDemoTests-environment.h */,
+				4B469EAC0EE39B0E1894D433 /* Pods-JiveLoggingHTTPProtocolDemoTests-resources.sh */,
+				585E2A3D37145885B0DCF9DE /* Pods-JiveLoggingHTTPProtocolDemoTests.debug.xcconfig */,
+				75187259B7C8C1B9F89A73B9 /* Pods-JiveLoggingHTTPProtocolDemoTests.release.xcconfig */,
+			);
+			name = "Pods-JiveLoggingHTTPProtocolDemoTests";
+			path = "Target Support Files/Pods-JiveLoggingHTTPProtocolDemoTests";
+			sourceTree = "<group>";
+		};
+		C4F0DADF573B71C07C34DB78 /* JiveLoggingHTTPProtocol */ = {
+			isa = PBXGroup;
+			children = (
+				692ECC4345D699CF49E89E6F /* JiveCacheStoragePolicy.h */,
+				40AC3F9390AFD9A72483133E /* JiveCacheStoragePolicy.m */,
+				AB954FD02D7EC476F7A96BFE /* JiveCanonicalRequest.h */,
+				AC24C938B0CDC65CB62567A7 /* JiveCanonicalRequest.m */,
+				7EA39F96E8FAE846CC3415B5 /* JiveLog.h */,
+				22B581371C42375F8DB0CC07 /* JiveLog.m */,
+				C41D7B11DB5831F39242A0CB /* JiveLoggingHTTPProtocol.h */,
+				0E0C6F99E7E3618B0FFAA9CF /* JiveLoggingHTTPProtocol.m */,
+				796A9CAE2EC0B5750437CDA1 /* JiveQNSURLSessionDemux.h */,
+				575E057AE1B4AD32F14EB131 /* JiveQNSURLSessionDemux.m */,
+			);
+			path = JiveLoggingHTTPProtocol;
+			sourceTree = "<group>";
+		};
+		CD060D9FDD445E2FDF0F973C /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				C4F0DADF573B71C07C34DB78 /* JiveLoggingHTTPProtocol */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		DB6E2527D4071001A3DAE824 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				568252AB72723DC2EE1A0FDC /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		ED4CA98DD296F7BFBD0E62C2 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5A96EAAC03F41276487DD7DA /* Pods-JiveLoggingHTTPProtocolDemo-JiveLoggingHTTPProtocol.xcconfig */,
+				91AFDF22EB7C0059E194210C /* Pods-JiveLoggingHTTPProtocolDemo-JiveLoggingHTTPProtocol-Private.xcconfig */,
+				F8D5840E9628FFD32D1715E4 /* Pods-JiveLoggingHTTPProtocolDemo-JiveLoggingHTTPProtocol-dummy.m */,
+				E662DDD912FD7378D7B02487 /* Pods-JiveLoggingHTTPProtocolDemo-JiveLoggingHTTPProtocol-prefix.pch */,
+				063058755E1DDBC013E16924 /* Pods-JiveLoggingHTTPProtocolDemoTests-JiveLoggingHTTPProtocol.xcconfig */,
+				69FD9CF70F0F99F0CE9702EC /* Pods-JiveLoggingHTTPProtocolDemoTests-JiveLoggingHTTPProtocol-Private.xcconfig */,
+				7FA29E3DD53B08EAD882440C /* Pods-JiveLoggingHTTPProtocolDemoTests-JiveLoggingHTTPProtocol-dummy.m */,
+				BB4E18E0C4E123CBEBD188DC /* Pods-JiveLoggingHTTPProtocolDemoTests-JiveLoggingHTTPProtocol-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "Pods/Target Support Files/Pods-JiveLoggingHTTPProtocolDemo-JiveLoggingHTTPProtocol";
+			sourceTree = "<group>";
+		};
+		EF7B7E0C008D910E36BB44BD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DB6E2527D4071001A3DAE824 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F2EB4CD6E69EDB39D9A62721 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1FB5BC90117CA32258DD933F /* JiveLoggingHTTPProtocol */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		6B7BE2B09C3EE52449DA68F7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4E0B1EDCBBB84DE733A291A /* JiveCacheStoragePolicy.h in Headers */,
+				BCECBA9A03442FB93CC12EBD /* JiveCanonicalRequest.h in Headers */,
+				4289789CC224003394267790 /* JiveLog.h in Headers */,
+				26E31CF3EBA7C5782E47DE89 /* JiveLoggingHTTPProtocol.h in Headers */,
+				75F8294F430ED572940BAE61 /* JiveQNSURLSessionDemux.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D99A929BA7C8347DF1DF4663 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				350FCF812B0A54395EF0B779 /* JiveCacheStoragePolicy.h in Headers */,
+				A30697368FDED2B7D755B1C1 /* JiveCanonicalRequest.h in Headers */,
+				4CD109DCC66E8809972AE47A /* JiveLog.h in Headers */,
+				267D059E79388F88728EA1C0 /* JiveLoggingHTTPProtocol.h in Headers */,
+				FAFDA15C3A1E077D5ACFD698 /* JiveQNSURLSessionDemux.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		01DFA70D48B2ED6958EBE7F5 /* Pods-JiveLoggingHTTPProtocolDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B335355550A445784B03457 /* Build configuration list for PBXNativeTarget "Pods-JiveLoggingHTTPProtocolDemo" */;
+			buildPhases = (
+				F510EB74C2E06001A7C26F6E /* Sources */,
+				A21BF97A0EBC43773493DC8E /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				34FF09934AF09B158C9FBAF2 /* PBXTargetDependency */,
+			);
+			name = "Pods-JiveLoggingHTTPProtocolDemo";
+			productName = "Pods-JiveLoggingHTTPProtocolDemo";
+			productReference = E9881A94DD5C02F92AB64D23 /* libPods-JiveLoggingHTTPProtocolDemo.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		202D97123E81B4C1F68EC26B /* Pods-JiveLoggingHTTPProtocolDemo-JiveLoggingHTTPProtocol */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 77459C7540DE03E54FAA31D5 /* Build configuration list for PBXNativeTarget "Pods-JiveLoggingHTTPProtocolDemo-JiveLoggingHTTPProtocol" */;
+			buildPhases = (
+				0EED7A6B09D7ED6645D5A80C /* Sources */,
+				C9F4843FDF8093EC02E4CF86 /* Frameworks */,
+				D99A929BA7C8347DF1DF4663 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-JiveLoggingHTTPProtocolDemo-JiveLoggingHTTPProtocol";
+			productName = "Pods-JiveLoggingHTTPProtocolDemo-JiveLoggingHTTPProtocol";
+			productReference = C3B96788F21A7EAEA77E2ADB /* libPods-JiveLoggingHTTPProtocolDemo-JiveLoggingHTTPProtocol.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		56048B9B012FC552491CE723 /* Pods-JiveLoggingHTTPProtocolDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25992E8ACCC0631B65CA638C /* Build configuration list for PBXNativeTarget "Pods-JiveLoggingHTTPProtocolDemoTests" */;
+			buildPhases = (
+				997C65DC1657BD7481BFA74D /* Sources */,
+				CE4C3FADA6840547AD7A7776 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF1ACD6D6A93915082BEA673 /* PBXTargetDependency */,
+			);
+			name = "Pods-JiveLoggingHTTPProtocolDemoTests";
+			productName = "Pods-JiveLoggingHTTPProtocolDemoTests";
+			productReference = E05FC897A832252DB2BA790C /* libPods-JiveLoggingHTTPProtocolDemoTests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		F9DC1B2A075161853295E846 /* Pods-JiveLoggingHTTPProtocolDemoTests-JiveLoggingHTTPProtocol */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C03E13DF0E7A0B912AC728FD /* Build configuration list for PBXNativeTarget "Pods-JiveLoggingHTTPProtocolDemoTests-JiveLoggingHTTPProtocol" */;
+			buildPhases = (
+				1AFEA16AEA11590F699FF985 /* Sources */,
+				884BDBB6876F28F54C5CBC8E /* Frameworks */,
+				6B7BE2B09C3EE52449DA68F7 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-JiveLoggingHTTPProtocolDemoTests-JiveLoggingHTTPProtocol";
+			productName = "Pods-JiveLoggingHTTPProtocolDemoTests-JiveLoggingHTTPProtocol";
+			productReference = ABD37857269EAD3DE57046F6 /* libPods-JiveLoggingHTTPProtocolDemoTests-JiveLoggingHTTPProtocol.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		701D6E8F59BCD8256B37B1BA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+			};
+			buildConfigurationList = 815AF15552BDDA3F94B505A7 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1F6FCC0803D27290828B2333;
+			productRefGroup = 7BE918F818BBCC5EFCFD254C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				01DFA70D48B2ED6958EBE7F5 /* Pods-JiveLoggingHTTPProtocolDemo */,
+				202D97123E81B4C1F68EC26B /* Pods-JiveLoggingHTTPProtocolDemo-JiveLoggingHTTPProtocol */,
+				56048B9B012FC552491CE723 /* Pods-JiveLoggingHTTPProtocolDemoTests */,
+				F9DC1B2A075161853295E846 /* Pods-JiveLoggingHTTPProtocolDemoTests-JiveLoggingHTTPProtocol */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0EED7A6B09D7ED6645D5A80C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B683A562BC059880E47BFF9 /* JiveCacheStoragePolicy.m in Sources */,
+				8557CE442E9D2C6E68DB3A28 /* JiveCanonicalRequest.m in Sources */,
+				5ED593361BC8C3462601A431 /* JiveLog.m in Sources */,
+				E9D35F1E43083832029BDD3B /* JiveLoggingHTTPProtocol.m in Sources */,
+				E44379CA464F0AF1E8023FE3 /* JiveQNSURLSessionDemux.m in Sources */,
+				752DB4AC0062C7B2807A853E /* Pods-JiveLoggingHTTPProtocolDemo-JiveLoggingHTTPProtocol-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AFEA16AEA11590F699FF985 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9C556EDDA298FC80AC74AF5 /* JiveCacheStoragePolicy.m in Sources */,
+				500DAF97DCC2433341C612B1 /* JiveCanonicalRequest.m in Sources */,
+				BAD3998E0E21BBDA611F0CC8 /* JiveLog.m in Sources */,
+				0D809B7B328751463FFEB29E /* JiveLoggingHTTPProtocol.m in Sources */,
+				A593BDBED38D6AE325194C8C /* JiveQNSURLSessionDemux.m in Sources */,
+				B495EEE71A90FF2BA056BA1C /* Pods-JiveLoggingHTTPProtocolDemoTests-JiveLoggingHTTPProtocol-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		997C65DC1657BD7481BFA74D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B036E5CCA520663B4EA9A71 /* Pods-JiveLoggingHTTPProtocolDemoTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F510EB74C2E06001A7C26F6E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDA31E92A460D269F7282602 /* Pods-JiveLoggingHTTPProtocolDemo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		34FF09934AF09B158C9FBAF2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-JiveLoggingHTTPProtocolDemo-JiveLoggingHTTPProtocol";
+			target = 202D97123E81B4C1F68EC26B /* Pods-JiveLoggingHTTPProtocolDemo-JiveLoggingHTTPProtocol */;
+			targetProxy = 247DE1EE495AADEB58DA5599 /* PBXContainerItemProxy */;
+		};
+		EF1ACD6D6A93915082BEA673 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-JiveLoggingHTTPProtocolDemoTests-JiveLoggingHTTPProtocol";
+			target = F9DC1B2A075161853295E846 /* Pods-JiveLoggingHTTPProtocolDemoTests-JiveLoggingHTTPProtocol */;
+			targetProxy = D24E9BEB451D1A079C358D3C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		071BFEE6A534E7ABFF195CD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 69FD9CF70F0F99F0CE9702EC /* Pods-JiveLoggingHTTPProtocolDemoTests-JiveLoggingHTTPProtocol-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-JiveLoggingHTTPProtocolDemoTests-JiveLoggingHTTPProtocol/Pods-JiveLoggingHTTPProtocolDemoTests-JiveLoggingHTTPProtocol-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		22D37ED4813AFC2DF14B3903 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91AFDF22EB7C0059E194210C /* Pods-JiveLoggingHTTPProtocolDemo-JiveLoggingHTTPProtocol-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-JiveLoggingHTTPProtocolDemo-JiveLoggingHTTPProtocol/Pods-JiveLoggingHTTPProtocolDemo-JiveLoggingHTTPProtocol-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		230E5DFC5639F2EDF902837E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		54ADF841ADAEFEEB7FD61079 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		81031A287421CC7AD1A02062 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A63ED0278C1857516344F32 /* Pods-JiveLoggingHTTPProtocolDemo.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		9D2B4C045B63D6B0B7F5B9DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 75187259B7C8C1B9F89A73B9 /* Pods-JiveLoggingHTTPProtocolDemoTests.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		B1944E601765D612ECB5FC60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FCC162A0B10078FB7C4E1211 /* Pods-JiveLoggingHTTPProtocolDemo.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		B9ECF3CAEE8575EF6E5A3D22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 585E2A3D37145885B0DCF9DE /* Pods-JiveLoggingHTTPProtocolDemoTests.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		C7C2AEF659A94FC57D64791A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 69FD9CF70F0F99F0CE9702EC /* Pods-JiveLoggingHTTPProtocolDemoTests-JiveLoggingHTTPProtocol-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-JiveLoggingHTTPProtocolDemoTests-JiveLoggingHTTPProtocol/Pods-JiveLoggingHTTPProtocolDemoTests-JiveLoggingHTTPProtocol-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		E24D000CDD84547B96C1F337 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91AFDF22EB7C0059E194210C /* Pods-JiveLoggingHTTPProtocolDemo-JiveLoggingHTTPProtocol-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-JiveLoggingHTTPProtocolDemo-JiveLoggingHTTPProtocol/Pods-JiveLoggingHTTPProtocolDemo-JiveLoggingHTTPProtocol-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		25992E8ACCC0631B65CA638C /* Build configuration list for PBXNativeTarget "Pods-JiveLoggingHTTPProtocolDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9ECF3CAEE8575EF6E5A3D22 /* Debug */,
+				9D2B4C045B63D6B0B7F5B9DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		77459C7540DE03E54FAA31D5 /* Build configuration list for PBXNativeTarget "Pods-JiveLoggingHTTPProtocolDemo-JiveLoggingHTTPProtocol" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E24D000CDD84547B96C1F337 /* Debug */,
+				22D37ED4813AFC2DF14B3903 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		815AF15552BDDA3F94B505A7 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54ADF841ADAEFEEB7FD61079 /* Debug */,
+				230E5DFC5639F2EDF902837E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B335355550A445784B03457 /* Build configuration list for PBXNativeTarget "Pods-JiveLoggingHTTPProtocolDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81031A287421CC7AD1A02062 /* Debug */,
+				B1944E601765D612ECB5FC60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C03E13DF0E7A0B912AC728FD /* Build configuration list for PBXNativeTarget "Pods-JiveLoggingHTTPProtocolDemoTests-JiveLoggingHTTPProtocol" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				071BFEE6A534E7ABFF195CD8 /* Debug */,
+				C7C2AEF659A94FC57D64791A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 701D6E8F59BCD8256B37B1BA /* Project object */;
+}
