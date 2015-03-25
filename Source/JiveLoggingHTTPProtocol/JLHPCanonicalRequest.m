@@ -343,7 +343,7 @@ static void CanonicaliseHeaders(NSMutableURLRequest * request)
 
 #pragma mark * API
 
-extern NSMutableURLRequest * CanonicalRequestForRequest(NSURLRequest *request)
+extern NSMutableURLRequest * JLHPCanonicalRequestForRequest(NSURLRequest *request)
 {
     NSMutableURLRequest *   result;
     NSString *              scheme;

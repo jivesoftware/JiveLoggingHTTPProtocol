@@ -117,7 +117,7 @@
  *  suffer an infinite recursive death).
  */
 
-static NSString * kOurRecursiveRequestFlagProperty = @"com.jivesoftware.mobile.JLHPLoggingHTTPProtocol";
+static NSString * kJLHPRecursiveRequestFlagProperty = @"com.jivesoftware.mobile.JLHPLoggingHTTPProtocol";
 
 static NSString * kJLHPUUIDStringRequestFlagProperty = @"com.jivesoftware.mobile.JLHPLoggingHTTPProtocol.UUIDString";
 
@@ -139,7 +139,7 @@ static NSString * kJLHPUUIDStringRequestFlagProperty = @"com.jivesoftware.mobile
     // Decline our recursive requests.
     
     if (shouldAccept) {
-        shouldAccept = ([self propertyForKey:kOurRecursiveRequestFlagProperty inRequest:request] == nil);
+        shouldAccept = ([self propertyForKey:kJLHPRecursiveRequestFlagProperty inRequest:request] == nil);
     }
     
     // Get the scheme.
@@ -178,7 +178,7 @@ static NSString * kJLHPUUIDStringRequestFlagProperty = @"com.jivesoftware.mobile
     // Canonicalising a request is quite complex, so all the heavy lifting has 
     // been shuffled off to a separate module.
     
-    result = CanonicalRequestForRequest(request);
+    result = JLHPCanonicalRequestForRequest(request);
     
     return result;
 }
@@ -238,7 +238,7 @@ static NSString * kJLHPUUIDStringRequestFlagProperty = @"com.jivesoftware.mobile
     recursiveRequest = [[self request] mutableCopy];
     assert(recursiveRequest != nil);
     
-    [[self class] setProperty:@YES forKey:kOurRecursiveRequestFlagProperty inRequest:recursiveRequest];
+    [[self class] setProperty:@YES forKey:kJLHPRecursiveRequestFlagProperty inRequest:recursiveRequest];
     
     // Latch the thread we were called on, primarily for debugging purposes.
     
@@ -316,10 +316,10 @@ static NSString * kJLHPUUIDStringRequestFlagProperty = @"com.jivesoftware.mobile
     // We also cancel our current connection because the client is going to start a new request for 
     // us anyway.
 
-    assert([[self class] propertyForKey:kOurRecursiveRequestFlagProperty inRequest:newRequest] != nil);
+    assert([[self class] propertyForKey:kJLHPRecursiveRequestFlagProperty inRequest:newRequest] != nil);
     
     redirectRequest = [newRequest mutableCopy];
-    [[self class] removePropertyForKey:kOurRecursiveRequestFlagProperty inRequest:redirectRequest];
+    [[self class] removePropertyForKey:kJLHPRecursiveRequestFlagProperty inRequest:redirectRequest];
     
     JLHPLog *redirectResponseLog = [[JLHPLog alloc] initWithUUIDString:self.UUIDString
                                                               response:response];
@@ -358,7 +358,7 @@ static NSString * kJLHPUUIDStringRequestFlagProperty = @"com.jivesoftware.mobile
     // we were given.
 
     if ([response isKindOfClass:[NSHTTPURLResponse class]]) {
-        cacheStoragePolicy = CacheStoragePolicyForRequestAndResponse(self.task.originalRequest, (NSHTTPURLResponse *) response);
+        cacheStoragePolicy = JLHPCacheStoragePolicyForRequestAndResponse(self.task.originalRequest, (NSHTTPURLResponse *) response);
         statusCode = [((NSHTTPURLResponse *) response) statusCode];
         
         self.responseLog = [[JLHPLog alloc] initWithUUIDString:self.UUIDString

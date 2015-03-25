@@ -47,7 +47,7 @@
 
 #import "JLHPCacheStoragePolicy.h"
 
-extern NSURLCacheStoragePolicy CacheStoragePolicyForRequestAndResponse(NSURLRequest * request, NSHTTPURLResponse * response)
+extern NSURLCacheStoragePolicy JLHPCacheStoragePolicyForRequestAndResponse(NSURLRequest * request, NSHTTPURLResponse * response)
     // See comment in header.
 {
     BOOL                        cacheable;

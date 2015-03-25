@@ -61,4 +61,4 @@
  *  \returns The canonical request; should never be nil.
  */
 
-extern NSMutableURLRequest * CanonicalRequestForRequest(NSURLRequest *request);
+extern NSMutableURLRequest * JLHPCanonicalRequestForRequest(NSURLRequest *request);

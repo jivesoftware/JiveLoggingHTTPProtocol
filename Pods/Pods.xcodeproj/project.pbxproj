@@ -7,354 +7,303 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		07D056D6A9B6EF14C73831EA /* JLHPCacheStoragePolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = F0C8830728A6214EAB22399C /* JLHPCacheStoragePolicy.m */; };
-		0B822F604B8B6989749F7798 /* JLHPCacheStoragePolicy.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C1555D1DB96A378DB63758A /* JLHPCacheStoragePolicy.h */; };
-		16CBD73939DDECA3498E5984 /* Pods-JiveLoggingHTTPProtocolDemo-JiveLoggingHTTPProtocol-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E473EF7BF93CE14CEFECFE0E /* Pods-JiveLoggingHTTPProtocolDemo-JiveLoggingHTTPProtocol-dummy.m */; };
-		21FF8652CB38B931708E3C3B /* JLHPLoggingHTTPProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = 834D4A3B998F689BC00E174E /* JLHPLoggingHTTPProtocol.m */; };
-		270B3A905EB79EA216C73782 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA10A830197B28376F6046CF /* Foundation.framework */; };
-		2C6836244DC006B8D19A04CE /* JLHPLog.h in Headers */ = {isa = PBXBuildFile; fileRef = 01E41E6795AA56DA1291BA40 /* JLHPLog.h */; };
-		3BB384A728DC2A4641A36B21 /* JLHPCanonicalRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = ACEBD957B63BCCAD27866810 /* JLHPCanonicalRequest.h */; };
-		3CAD86DB0A32C5569BC68F1B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA10A830197B28376F6046CF /* Foundation.framework */; };
-		416C2CA59A9BA81A004AF7B7 /* JLHPQNSURLSessionDemux.h in Headers */ = {isa = PBXBuildFile; fileRef = 4336DE6ED8EEF146266D5D8B /* JLHPQNSURLSessionDemux.h */; };
-		435B6A07C8866276700631CF /* JLHPCanonicalRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = DBB718F4501EBC39E6A7532F /* JLHPCanonicalRequest.m */; };
-		584D9965E507307E7084798A /* JLHPCacheStoragePolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = F0C8830728A6214EAB22399C /* JLHPCacheStoragePolicy.m */; };
-		679A241AFFC48EF0D2B3E9C8 /* JLHPLoggingHTTPProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = 834D4A3B998F689BC00E174E /* JLHPLoggingHTTPProtocol.m */; };
-		6838A1333B228A70C7BF8B8A /* Pods-JiveLoggingHTTPProtocolDemoTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 219EDEB68ACE85D9A7D43B01 /* Pods-JiveLoggingHTTPProtocolDemoTests-dummy.m */; };
-		6934B19ED1860B1F3D35D8CA /* JLHPCacheStoragePolicy.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C1555D1DB96A378DB63758A /* JLHPCacheStoragePolicy.h */; };
-		6C266E7B046CA05A56F644FF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA10A830197B28376F6046CF /* Foundation.framework */; };
-		74D79CE0FE6FC0CAE9FBFBCB /* Pods-JiveLoggingHTTPProtocolDemoTests-JiveLoggingHTTPProtocol-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C2669C782F58ADC0EFE86CD /* Pods-JiveLoggingHTTPProtocolDemoTests-JiveLoggingHTTPProtocol-dummy.m */; };
-		8E8E9E6037482F2B11843D64 /* Pods-JiveLoggingHTTPProtocolDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 86CDF0F7C859C1836A255293 /* Pods-JiveLoggingHTTPProtocolDemo-dummy.m */; };
-		96C193578A87860EEAF7765C /* JLHPQNSURLSessionDemux.h in Headers */ = {isa = PBXBuildFile; fileRef = 4336DE6ED8EEF146266D5D8B /* JLHPQNSURLSessionDemux.h */; };
-		9982BB64F3F6D11EF6FBFF64 /* JLHPLog.h in Headers */ = {isa = PBXBuildFile; fileRef = 01E41E6795AA56DA1291BA40 /* JLHPLog.h */; };
-		9AA23D2CAA4E61141480C58D /* JLHPLoggingHTTPProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = E3567EE4F055797C699816F1 /* JLHPLoggingHTTPProtocol.h */; };
-		9BEF0A3DD7BE38C19C84596F /* JLHPCanonicalRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = DBB718F4501EBC39E6A7532F /* JLHPCanonicalRequest.m */; };
-		A44703466EC31169F4967401 /* JLHPLog.m in Sources */ = {isa = PBXBuildFile; fileRef = A69446E6CDB98946DD708FA9 /* JLHPLog.m */; };
-		B07CFF78F739AF3700BE6792 /* JLHPCanonicalRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = ACEBD957B63BCCAD27866810 /* JLHPCanonicalRequest.h */; };
-		CC8FBA9533528D379BCC8B4F /* JiveQNSURLSessionDemux.m in Sources */ = {isa = PBXBuildFile; fileRef = 52D1D8BA62916E94C074B4BF /* JiveQNSURLSessionDemux.m */; };
-		DC7A57680E23D4CD4C3932E2 /* JLHPLoggingHTTPProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = E3567EE4F055797C699816F1 /* JLHPLoggingHTTPProtocol.h */; };
-		DC960C8879454FCEF61F12DE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA10A830197B28376F6046CF /* Foundation.framework */; };
-		E6AF520212E7B0D08CE6581E /* JLHPLog.m in Sources */ = {isa = PBXBuildFile; fileRef = A69446E6CDB98946DD708FA9 /* JLHPLog.m */; };
-		FE8AB188C737DF13238433F7 /* JiveQNSURLSessionDemux.m in Sources */ = {isa = PBXBuildFile; fileRef = 52D1D8BA62916E94C074B4BF /* JiveQNSURLSessionDemux.m */; };
+		0993C68B802ACDC9C31E4353 /* Pods-JiveLoggingHTTPProtocolDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F084A120060389BBEEC8019F /* Pods-JiveLoggingHTTPProtocolDemo-dummy.m */; };
+		0ABA7BF9A80966224D5E6504 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACE41DE3E60AD7754119BDB1 /* Foundation.framework */; };
+		0FB1281250AFEF584D62322F /* JLHPQNSURLSessionDemux.m in Sources */ = {isa = PBXBuildFile; fileRef = BDC25E61E91284D1E0BE6827 /* JLHPQNSURLSessionDemux.m */; };
+		17C80E5988A1C69213760C54 /* JLHPLog.h in Headers */ = {isa = PBXBuildFile; fileRef = E60131B2A66399131A2C4FBD /* JLHPLog.h */; };
+		23532CAC6B29E9C750B683C1 /* Pods-JiveLoggingHTTPProtocolDemoTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F0C7FD33574892A7B356C6E /* Pods-JiveLoggingHTTPProtocolDemoTests-dummy.m */; };
+		2A9298EB731856EEAD02CFE8 /* JLHPCanonicalRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 4829E6C5B0F9CF2585D25132 /* JLHPCanonicalRequest.m */; };
+		2E85BA80980AA32678A30708 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACE41DE3E60AD7754119BDB1 /* Foundation.framework */; };
+		2F109AD117B5D096C34F6D49 /* JLHPCacheStoragePolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = D27355560F663871A66CFA24 /* JLHPCacheStoragePolicy.m */; };
+		4CEA91FC2987468E93E6D3AE /* JLHPQNSURLSessionDemux.h in Headers */ = {isa = PBXBuildFile; fileRef = 2AF74E74A9A0C1F8B67891C7 /* JLHPQNSURLSessionDemux.h */; };
+		4FCDEB96C6895845C7D61A45 /* JLHPLog.h in Headers */ = {isa = PBXBuildFile; fileRef = E60131B2A66399131A2C4FBD /* JLHPLog.h */; };
+		50A84226561A329D4ABF8499 /* JLHPCacheStoragePolicy.h in Headers */ = {isa = PBXBuildFile; fileRef = 04105BA1ED58331052B9608B /* JLHPCacheStoragePolicy.h */; };
+		543D17A618B8C1926855FC6F /* JLHPQNSURLSessionDemux.m in Sources */ = {isa = PBXBuildFile; fileRef = BDC25E61E91284D1E0BE6827 /* JLHPQNSURLSessionDemux.m */; };
+		589EC7539C3611EEAB3B595D /* Pods-JiveLoggingHTTPProtocolDemoTests-JiveLoggingHTTPProtocol-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F6B6B9292EF17499FF1120E /* Pods-JiveLoggingHTTPProtocolDemoTests-JiveLoggingHTTPProtocol-dummy.m */; };
+		5CA6BBFD54448D0612A9F58B /* Pods-JiveLoggingHTTPProtocolDemo-JiveLoggingHTTPProtocol-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EC25A0E6E05725DF58D44490 /* Pods-JiveLoggingHTTPProtocolDemo-JiveLoggingHTTPProtocol-dummy.m */; };
+		68A8F796D5590BC2A97AA67A /* JLHPQNSURLSessionDemux.h in Headers */ = {isa = PBXBuildFile; fileRef = 2AF74E74A9A0C1F8B67891C7 /* JLHPQNSURLSessionDemux.h */; };
+		6BBC265C3D2D25499253C143 /* JLHPCacheStoragePolicy.h in Headers */ = {isa = PBXBuildFile; fileRef = 04105BA1ED58331052B9608B /* JLHPCacheStoragePolicy.h */; };
+		78FF4EAEC673DD79A9421C5D /* JLHPLoggingHTTPProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D4DE8E57FF25B9987C6D561 /* JLHPLoggingHTTPProtocol.m */; };
+		7F135F0ABE232D0139FD9DFD /* JLHPLog.m in Sources */ = {isa = PBXBuildFile; fileRef = F6F9F4C6A43891D7A08BBC52 /* JLHPLog.m */; };
+		8A8BF72351CED55A54F36DFC /* JLHPCacheStoragePolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = D27355560F663871A66CFA24 /* JLHPCacheStoragePolicy.m */; };
+		8F731238DC79E3E026E4A558 /* JLHPLoggingHTTPProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 57EF26DB64ECC128F180D3FE /* JLHPLoggingHTTPProtocol.h */; };
+		99788B9F6EE31C180AD13A5C /* JLHPLoggingHTTPProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D4DE8E57FF25B9987C6D561 /* JLHPLoggingHTTPProtocol.m */; };
+		9B0340A4B36B0AB2C91714E1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACE41DE3E60AD7754119BDB1 /* Foundation.framework */; };
+		A676D3F60FC6E112996D12CD /* JLHPCanonicalRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 428634F29670C39BD46A4004 /* JLHPCanonicalRequest.h */; };
+		ACE24BE64D5BD196B7479BDD /* JLHPCanonicalRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 428634F29670C39BD46A4004 /* JLHPCanonicalRequest.h */; };
+		B3C74E61BEDE949885833E33 /* JLHPCanonicalRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 4829E6C5B0F9CF2585D25132 /* JLHPCanonicalRequest.m */; };
+		BB176333AFEFAAE574B3232F /* JLHPLoggingHTTPProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 57EF26DB64ECC128F180D3FE /* JLHPLoggingHTTPProtocol.h */; };
+		C7BD26D56FFB13630FDDA08E /* JLHPLog.m in Sources */ = {isa = PBXBuildFile; fileRef = F6F9F4C6A43891D7A08BBC52 /* JLHPLog.m */; };
+		FADAC1EB10BE05F1CC8A7052 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACE41DE3E60AD7754119BDB1 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		6143BDA23E7505BB3F609300 /* PBXContainerItemProxy */ = {
+		9CD542675507A19AA4D66A65 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 1E37D395EE3798AE0C7A396D /* Project object */;
+			containerPortal = 9DF64CDC08976CAB7D2A3D87 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = A04B1DEEC129218535920912;
-			remoteInfo = "Pods-JiveLoggingHTTPProtocolDemo-JiveLoggingHTTPProtocol";
-		};
-		69876A4A3DC38D1617B20411 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 1E37D395EE3798AE0C7A396D /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 58996148ACE4543F7B82760C;
+			remoteGlobalIDString = 59173BCF5EAFC3C29E874671;
 			remoteInfo = "Pods-JiveLoggingHTTPProtocolDemoTests-JiveLoggingHTTPProtocol";
+		};
+		B171F3ABCBE668D93168E458 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9DF64CDC08976CAB7D2A3D87 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1545134F8AE703385AA0F44E;
+			remoteInfo = "Pods-JiveLoggingHTTPProtocolDemo-JiveLoggingHTTPProtocol";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		01E41E6795AA56DA1291BA40 /* JLHPLog.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JLHPLog.h; sourceTree = "<group>"; };
-		0F22BDC05ABF2AB4BCC057AA /* Pods-JiveLoggingHTTPProtocolDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JiveLoggingHTTPProtocolDemo.release.xcconfig"; sourceTree = "<group>"; };
-		107BC2EE011743BA0E1B5C6E /* libPods-JiveLoggingHTTPProtocolDemo-JiveLoggingHTTPProtocol.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JiveLoggingHTTPProtocolDemo-JiveLoggingHTTPProtocol.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		1329B673F9C923230EA8EFA4 /* Pods-JiveLoggingHTTPProtocolDemoTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JiveLoggingHTTPProtocolDemoTests-acknowledgements.plist"; sourceTree = "<group>"; };
-		174D81B3AD6DCF261B3A6FCA /* libPods-JiveLoggingHTTPProtocolDemoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JiveLoggingHTTPProtocolDemoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		179D9187276526CEE60B23E1 /* Pods-JiveLoggingHTTPProtocolDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JiveLoggingHTTPProtocolDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
-		17B2ADD969C4053A5B58C416 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		219EDEB68ACE85D9A7D43B01 /* Pods-JiveLoggingHTTPProtocolDemoTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JiveLoggingHTTPProtocolDemoTests-dummy.m"; sourceTree = "<group>"; };
-		2C1555D1DB96A378DB63758A /* JLHPCacheStoragePolicy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JLHPCacheStoragePolicy.h; sourceTree = "<group>"; };
-		3334280FBCD4C971A5D207C7 /* Pods-JiveLoggingHTTPProtocolDemoTests-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JiveLoggingHTTPProtocolDemoTests-environment.h"; sourceTree = "<group>"; };
-		353A7FC62667C0A52CFE318F /* libPods-JiveLoggingHTTPProtocolDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JiveLoggingHTTPProtocolDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		4336DE6ED8EEF146266D5D8B /* JLHPQNSURLSessionDemux.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JLHPQNSURLSessionDemux.h; sourceTree = "<group>"; };
-		52D1D8BA62916E94C074B4BF /* JiveQNSURLSessionDemux.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = JiveQNSURLSessionDemux.m; sourceTree = "<group>"; };
-		546AE3A21182F6457E40551C /* Pods-JiveLoggingHTTPProtocolDemoTests-JiveLoggingHTTPProtocol-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-JiveLoggingHTTPProtocolDemoTests-JiveLoggingHTTPProtocol-prefix.pch"; path = "../Pods-JiveLoggingHTTPProtocolDemoTests-JiveLoggingHTTPProtocol/Pods-JiveLoggingHTTPProtocolDemoTests-JiveLoggingHTTPProtocol-prefix.pch"; sourceTree = "<group>"; };
-		5A0D6741DA1E75F9E26AC0A4 /* Pods-JiveLoggingHTTPProtocolDemoTests-JiveLoggingHTTPProtocol.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JiveLoggingHTTPProtocolDemoTests-JiveLoggingHTTPProtocol.xcconfig"; path = "../Pods-JiveLoggingHTTPProtocolDemoTests-JiveLoggingHTTPProtocol/Pods-JiveLoggingHTTPProtocolDemoTests-JiveLoggingHTTPProtocol.xcconfig"; sourceTree = "<group>"; };
-		6C2669C782F58ADC0EFE86CD /* Pods-JiveLoggingHTTPProtocolDemoTests-JiveLoggingHTTPProtocol-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Pods-JiveLoggingHTTPProtocolDemoTests-JiveLoggingHTTPProtocol-dummy.m"; path = "../Pods-JiveLoggingHTTPProtocolDemoTests-JiveLoggingHTTPProtocol/Pods-JiveLoggingHTTPProtocolDemoTests-JiveLoggingHTTPProtocol-dummy.m"; sourceTree = "<group>"; };
-		82FC3B812222A90C8C3CC41E /* Pods-JiveLoggingHTTPProtocolDemoTests-JiveLoggingHTTPProtocol-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JiveLoggingHTTPProtocolDemoTests-JiveLoggingHTTPProtocol-Private.xcconfig"; path = "../Pods-JiveLoggingHTTPProtocolDemoTests-JiveLoggingHTTPProtocol/Pods-JiveLoggingHTTPProtocolDemoTests-JiveLoggingHTTPProtocol-Private.xcconfig"; sourceTree = "<group>"; };
-		834D4A3B998F689BC00E174E /* JLHPLoggingHTTPProtocol.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = JLHPLoggingHTTPProtocol.m; sourceTree = "<group>"; };
-		86CDF0F7C859C1836A255293 /* Pods-JiveLoggingHTTPProtocolDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JiveLoggingHTTPProtocolDemo-dummy.m"; sourceTree = "<group>"; };
-		8B6676D668B86D56A4F25363 /* Pods-JiveLoggingHTTPProtocolDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JiveLoggingHTTPProtocolDemoTests.release.xcconfig"; sourceTree = "<group>"; };
-		8DE3F2A0AD27819C81BB77C1 /* Pods-JiveLoggingHTTPProtocolDemoTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JiveLoggingHTTPProtocolDemoTests-resources.sh"; sourceTree = "<group>"; };
-		91618810D6B7354CCDDFFAFC /* libPods-JiveLoggingHTTPProtocolDemoTests-JiveLoggingHTTPProtocol.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JiveLoggingHTTPProtocolDemoTests-JiveLoggingHTTPProtocol.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		937209C39FCE8CEFC8CD10BF /* Pods-JiveLoggingHTTPProtocolDemo-JiveLoggingHTTPProtocol-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JiveLoggingHTTPProtocolDemo-JiveLoggingHTTPProtocol-prefix.pch"; sourceTree = "<group>"; };
-		A49D12312D3A689D311EE19F /* Pods-JiveLoggingHTTPProtocolDemo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JiveLoggingHTTPProtocolDemo-resources.sh"; sourceTree = "<group>"; };
-		A69446E6CDB98946DD708FA9 /* JLHPLog.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = JLHPLog.m; sourceTree = "<group>"; };
-		ACEBD957B63BCCAD27866810 /* JLHPCanonicalRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JLHPCanonicalRequest.h; sourceTree = "<group>"; };
-		B19425DC599FBD1F4C3AC5B8 /* Pods-JiveLoggingHTTPProtocolDemo-JiveLoggingHTTPProtocol-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JiveLoggingHTTPProtocolDemo-JiveLoggingHTTPProtocol-Private.xcconfig"; sourceTree = "<group>"; };
-		BEF279435A8129B69C4D4195 /* Pods-JiveLoggingHTTPProtocolDemoTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JiveLoggingHTTPProtocolDemoTests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		C15391157F5CB76F02DA2A75 /* Pods-JiveLoggingHTTPProtocolDemo-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JiveLoggingHTTPProtocolDemo-environment.h"; sourceTree = "<group>"; };
-		CF0BF03DEC3EA497D7669E0F /* Pods-JiveLoggingHTTPProtocolDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JiveLoggingHTTPProtocolDemo.debug.xcconfig"; sourceTree = "<group>"; };
-		DA10A830197B28376F6046CF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		DBB718F4501EBC39E6A7532F /* JLHPCanonicalRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = JLHPCanonicalRequest.m; sourceTree = "<group>"; };
-		E0469ACD9D3D379313F07A44 /* Pods-JiveLoggingHTTPProtocolDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JiveLoggingHTTPProtocolDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
-		E1C3E24599399E59D74E8612 /* Pods-JiveLoggingHTTPProtocolDemo-JiveLoggingHTTPProtocol.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JiveLoggingHTTPProtocolDemo-JiveLoggingHTTPProtocol.xcconfig"; sourceTree = "<group>"; };
-		E29202BCB53C63FA1FEB0155 /* Pods-JiveLoggingHTTPProtocolDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JiveLoggingHTTPProtocolDemo-acknowledgements.plist"; sourceTree = "<group>"; };
-		E3567EE4F055797C699816F1 /* JLHPLoggingHTTPProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JLHPLoggingHTTPProtocol.h; sourceTree = "<group>"; };
-		E473EF7BF93CE14CEFECFE0E /* Pods-JiveLoggingHTTPProtocolDemo-JiveLoggingHTTPProtocol-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JiveLoggingHTTPProtocolDemo-JiveLoggingHTTPProtocol-dummy.m"; sourceTree = "<group>"; };
-		F0C8830728A6214EAB22399C /* JLHPCacheStoragePolicy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = JLHPCacheStoragePolicy.m; sourceTree = "<group>"; };
+		04105BA1ED58331052B9608B /* JLHPCacheStoragePolicy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JLHPCacheStoragePolicy.h; sourceTree = "<group>"; };
+		0F0C7FD33574892A7B356C6E /* Pods-JiveLoggingHTTPProtocolDemoTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JiveLoggingHTTPProtocolDemoTests-dummy.m"; sourceTree = "<group>"; };
+		15196DCB4B8E3FF1CA6FA9C5 /* Pods-JiveLoggingHTTPProtocolDemoTests-JiveLoggingHTTPProtocol-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JiveLoggingHTTPProtocolDemoTests-JiveLoggingHTTPProtocol-Private.xcconfig"; path = "../Pods-JiveLoggingHTTPProtocolDemoTests-JiveLoggingHTTPProtocol/Pods-JiveLoggingHTTPProtocolDemoTests-JiveLoggingHTTPProtocol-Private.xcconfig"; sourceTree = "<group>"; };
+		23EEB150A8D67236EB7D1DB5 /* Pods-JiveLoggingHTTPProtocolDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JiveLoggingHTTPProtocolDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		2AF74E74A9A0C1F8B67891C7 /* JLHPQNSURLSessionDemux.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JLHPQNSURLSessionDemux.h; sourceTree = "<group>"; };
+		2D4DE8E57FF25B9987C6D561 /* JLHPLoggingHTTPProtocol.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = JLHPLoggingHTTPProtocol.m; sourceTree = "<group>"; };
+		2F2AF042E41D7123C386F05C /* Pods-JiveLoggingHTTPProtocolDemo-JiveLoggingHTTPProtocol-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JiveLoggingHTTPProtocolDemo-JiveLoggingHTTPProtocol-Private.xcconfig"; sourceTree = "<group>"; };
+		3105599D60111DF9C02EF570 /* Pods-JiveLoggingHTTPProtocolDemoTests-JiveLoggingHTTPProtocol-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-JiveLoggingHTTPProtocolDemoTests-JiveLoggingHTTPProtocol-prefix.pch"; path = "../Pods-JiveLoggingHTTPProtocolDemoTests-JiveLoggingHTTPProtocol/Pods-JiveLoggingHTTPProtocolDemoTests-JiveLoggingHTTPProtocol-prefix.pch"; sourceTree = "<group>"; };
+		428634F29670C39BD46A4004 /* JLHPCanonicalRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JLHPCanonicalRequest.h; sourceTree = "<group>"; };
+		4829E6C5B0F9CF2585D25132 /* JLHPCanonicalRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = JLHPCanonicalRequest.m; sourceTree = "<group>"; };
+		4CB3527E0232CE677595CB19 /* libPods-JiveLoggingHTTPProtocolDemo-JiveLoggingHTTPProtocol.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JiveLoggingHTTPProtocolDemo-JiveLoggingHTTPProtocol.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F1847E4888A9139D8009081 /* Pods-JiveLoggingHTTPProtocolDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JiveLoggingHTTPProtocolDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		57EF26DB64ECC128F180D3FE /* JLHPLoggingHTTPProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JLHPLoggingHTTPProtocol.h; sourceTree = "<group>"; };
+		634E79C351BB94C4DBCD6D1A /* Pods-JiveLoggingHTTPProtocolDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JiveLoggingHTTPProtocolDemo.release.xcconfig"; sourceTree = "<group>"; };
+		6AF48502E18F434785B307A6 /* Pods-JiveLoggingHTTPProtocolDemo-JiveLoggingHTTPProtocol.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JiveLoggingHTTPProtocolDemo-JiveLoggingHTTPProtocol.xcconfig"; sourceTree = "<group>"; };
+		739B55EDFB1E8FEF098176F8 /* Pods-JiveLoggingHTTPProtocolDemoTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JiveLoggingHTTPProtocolDemoTests-resources.sh"; sourceTree = "<group>"; };
+		79FB2D4D51C2DEE2FDD72EE9 /* Pods-JiveLoggingHTTPProtocolDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JiveLoggingHTTPProtocolDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7C2D6FA57065BEA7762E390D /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		89990964E465693CA6A31636 /* libPods-JiveLoggingHTTPProtocolDemoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JiveLoggingHTTPProtocolDemoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F6B6B9292EF17499FF1120E /* Pods-JiveLoggingHTTPProtocolDemoTests-JiveLoggingHTTPProtocol-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Pods-JiveLoggingHTTPProtocolDemoTests-JiveLoggingHTTPProtocol-dummy.m"; path = "../Pods-JiveLoggingHTTPProtocolDemoTests-JiveLoggingHTTPProtocol/Pods-JiveLoggingHTTPProtocolDemoTests-JiveLoggingHTTPProtocol-dummy.m"; sourceTree = "<group>"; };
+		ACE41DE3E60AD7754119BDB1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		BDC25E61E91284D1E0BE6827 /* JLHPQNSURLSessionDemux.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = JLHPQNSURLSessionDemux.m; sourceTree = "<group>"; };
+		BF22B25AEDDDA56F962E137F /* Pods-JiveLoggingHTTPProtocolDemoTests-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JiveLoggingHTTPProtocolDemoTests-environment.h"; sourceTree = "<group>"; };
+		CC96D3DC4FBCA1F34A9A3DFD /* Pods-JiveLoggingHTTPProtocolDemo-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JiveLoggingHTTPProtocolDemo-environment.h"; sourceTree = "<group>"; };
+		CD6C9917724EB340EE540CF7 /* Pods-JiveLoggingHTTPProtocolDemo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JiveLoggingHTTPProtocolDemo-resources.sh"; sourceTree = "<group>"; };
+		D27355560F663871A66CFA24 /* JLHPCacheStoragePolicy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = JLHPCacheStoragePolicy.m; sourceTree = "<group>"; };
+		D32C411B906196EDC990CBBC /* Pods-JiveLoggingHTTPProtocolDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JiveLoggingHTTPProtocolDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		D3ED9FF82CADF29F1A26222B /* Pods-JiveLoggingHTTPProtocolDemo-JiveLoggingHTTPProtocol-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JiveLoggingHTTPProtocolDemo-JiveLoggingHTTPProtocol-prefix.pch"; sourceTree = "<group>"; };
+		E60131B2A66399131A2C4FBD /* JLHPLog.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JLHPLog.h; sourceTree = "<group>"; };
+		EA104AF3332891550BC0670A /* Pods-JiveLoggingHTTPProtocolDemoTests-JiveLoggingHTTPProtocol.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JiveLoggingHTTPProtocolDemoTests-JiveLoggingHTTPProtocol.xcconfig"; path = "../Pods-JiveLoggingHTTPProtocolDemoTests-JiveLoggingHTTPProtocol/Pods-JiveLoggingHTTPProtocolDemoTests-JiveLoggingHTTPProtocol.xcconfig"; sourceTree = "<group>"; };
+		EA3CA272805BB5DE594CD538 /* Pods-JiveLoggingHTTPProtocolDemoTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JiveLoggingHTTPProtocolDemoTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		EC25A0E6E05725DF58D44490 /* Pods-JiveLoggingHTTPProtocolDemo-JiveLoggingHTTPProtocol-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JiveLoggingHTTPProtocolDemo-JiveLoggingHTTPProtocol-dummy.m"; sourceTree = "<group>"; };
+		F084A120060389BBEEC8019F /* Pods-JiveLoggingHTTPProtocolDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JiveLoggingHTTPProtocolDemo-dummy.m"; sourceTree = "<group>"; };
+		F2151F71D787F9C4DA338B85 /* Pods-JiveLoggingHTTPProtocolDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JiveLoggingHTTPProtocolDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		F35EF1E68582EDF8BDD7FCAD /* Pods-JiveLoggingHTTPProtocolDemoTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JiveLoggingHTTPProtocolDemoTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		F6F9F4C6A43891D7A08BBC52 /* JLHPLog.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = JLHPLog.m; sourceTree = "<group>"; };
+		FC66B54B5EE98AF45FED23FC /* libPods-JiveLoggingHTTPProtocolDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JiveLoggingHTTPProtocolDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFE491D2EB2A37B7A0CAFC08 /* libPods-JiveLoggingHTTPProtocolDemoTests-JiveLoggingHTTPProtocol.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JiveLoggingHTTPProtocolDemoTests-JiveLoggingHTTPProtocol.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		2DB41CAAB6EFF5DD113249F3 /* Frameworks */ = {
+		12C5318CCD38176BF25C32DA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				270B3A905EB79EA216C73782 /* Foundation.framework in Frameworks */,
+				FADAC1EB10BE05F1CC8A7052 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		833891C90BF2676AF58C8F34 /* Frameworks */ = {
+		5FFF4B3AF609D67C888116B3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6C266E7B046CA05A56F644FF /* Foundation.framework in Frameworks */,
+				9B0340A4B36B0AB2C91714E1 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C317D4EBF3614BA3E612822D /* Frameworks */ = {
+		D0A446FEBF0BFCB6DE9276DD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DC960C8879454FCEF61F12DE /* Foundation.framework in Frameworks */,
+				2E85BA80980AA32678A30708 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D74D0FAF878805E5EB5D196E /* Frameworks */ = {
+		ED10AEE429336060C46E151F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3CAD86DB0A32C5569BC68F1B /* Foundation.framework in Frameworks */,
+				0ABA7BF9A80966224D5E6504 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		071FCB1645B57928E5688078 /* Pods-JiveLoggingHTTPProtocolDemoTests */ = {
+		0F6E5CF18DC10719D16FF849 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				BEF279435A8129B69C4D4195 /* Pods-JiveLoggingHTTPProtocolDemoTests-acknowledgements.markdown */,
-				1329B673F9C923230EA8EFA4 /* Pods-JiveLoggingHTTPProtocolDemoTests-acknowledgements.plist */,
-				219EDEB68ACE85D9A7D43B01 /* Pods-JiveLoggingHTTPProtocolDemoTests-dummy.m */,
-				3334280FBCD4C971A5D207C7 /* Pods-JiveLoggingHTTPProtocolDemoTests-environment.h */,
-				8DE3F2A0AD27819C81BB77C1 /* Pods-JiveLoggingHTTPProtocolDemoTests-resources.sh */,
-				E0469ACD9D3D379313F07A44 /* Pods-JiveLoggingHTTPProtocolDemoTests.debug.xcconfig */,
-				8B6676D668B86D56A4F25363 /* Pods-JiveLoggingHTTPProtocolDemoTests.release.xcconfig */,
-			);
-			name = "Pods-JiveLoggingHTTPProtocolDemoTests";
-			path = "Target Support Files/Pods-JiveLoggingHTTPProtocolDemoTests";
-			sourceTree = "<group>";
-		};
-		430C0C30E6A51AA3BF6C4F96 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				E1C3E24599399E59D74E8612 /* Pods-JiveLoggingHTTPProtocolDemo-JiveLoggingHTTPProtocol.xcconfig */,
-				B19425DC599FBD1F4C3AC5B8 /* Pods-JiveLoggingHTTPProtocolDemo-JiveLoggingHTTPProtocol-Private.xcconfig */,
-				E473EF7BF93CE14CEFECFE0E /* Pods-JiveLoggingHTTPProtocolDemo-JiveLoggingHTTPProtocol-dummy.m */,
-				937209C39FCE8CEFC8CD10BF /* Pods-JiveLoggingHTTPProtocolDemo-JiveLoggingHTTPProtocol-prefix.pch */,
-				5A0D6741DA1E75F9E26AC0A4 /* Pods-JiveLoggingHTTPProtocolDemoTests-JiveLoggingHTTPProtocol.xcconfig */,
-				82FC3B812222A90C8C3CC41E /* Pods-JiveLoggingHTTPProtocolDemoTests-JiveLoggingHTTPProtocol-Private.xcconfig */,
-				6C2669C782F58ADC0EFE86CD /* Pods-JiveLoggingHTTPProtocolDemoTests-JiveLoggingHTTPProtocol-dummy.m */,
-				546AE3A21182F6457E40551C /* Pods-JiveLoggingHTTPProtocolDemoTests-JiveLoggingHTTPProtocol-prefix.pch */,
-			);
-			name = "Support Files";
-			path = "Pods/Target Support Files/Pods-JiveLoggingHTTPProtocolDemo-JiveLoggingHTTPProtocol";
-			sourceTree = "<group>";
-		};
-		581E0C26FCF88B13956A3A24 = {
-			isa = PBXGroup;
-			children = (
-				17B2ADD969C4053A5B58C416 /* Podfile */,
-				EB03C28426BFEDB4CA79BBB5 /* Development Pods */,
-				8A3A00ED62E659F2E11E5122 /* Frameworks */,
-				7A3EB8581A824018636A7F63 /* Products */,
-				B295B0CE62118FFB6E91D81B /* Targets Support Files */,
-			);
-			sourceTree = "<group>";
-		};
-		7006E9A0CCED7A9025C35B47 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				DA10A830197B28376F6046CF /* Foundation.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		72F8A038DB46D21581137FE1 /* JiveLoggingHTTPProtocol */ = {
-			isa = PBXGroup;
-			children = (
-				2C1555D1DB96A378DB63758A /* JLHPCacheStoragePolicy.h */,
-				F0C8830728A6214EAB22399C /* JLHPCacheStoragePolicy.m */,
-				ACEBD957B63BCCAD27866810 /* JLHPCanonicalRequest.h */,
-				DBB718F4501EBC39E6A7532F /* JLHPCanonicalRequest.m */,
-				01E41E6795AA56DA1291BA40 /* JLHPLog.h */,
-				A69446E6CDB98946DD708FA9 /* JLHPLog.m */,
-				E3567EE4F055797C699816F1 /* JLHPLoggingHTTPProtocol.h */,
-				834D4A3B998F689BC00E174E /* JLHPLoggingHTTPProtocol.m */,
-				4336DE6ED8EEF146266D5D8B /* JLHPQNSURLSessionDemux.h */,
-				52D1D8BA62916E94C074B4BF /* JiveQNSURLSessionDemux.m */,
-			);
-			path = JiveLoggingHTTPProtocol;
-			sourceTree = "<group>";
-		};
-		7A3EB8581A824018636A7F63 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				353A7FC62667C0A52CFE318F /* libPods-JiveLoggingHTTPProtocolDemo.a */,
-				107BC2EE011743BA0E1B5C6E /* libPods-JiveLoggingHTTPProtocolDemo-JiveLoggingHTTPProtocol.a */,
-				174D81B3AD6DCF261B3A6FCA /* libPods-JiveLoggingHTTPProtocolDemoTests.a */,
-				91618810D6B7354CCDDFFAFC /* libPods-JiveLoggingHTTPProtocolDemoTests-JiveLoggingHTTPProtocol.a */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		8A3A00ED62E659F2E11E5122 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				7006E9A0CCED7A9025C35B47 /* iOS */,
+				DADEA3FFE3B263DD9C1D66D3 /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		B295B0CE62118FFB6E91D81B /* Targets Support Files */ = {
+		17EB3B25D6772B5CADCA240F /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				B5666AD7355E998596B013AB /* Pods-JiveLoggingHTTPProtocolDemo */,
-				071FCB1645B57928E5688078 /* Pods-JiveLoggingHTTPProtocolDemoTests */,
+				1E668D88A87A162122E8639A /* Pods-JiveLoggingHTTPProtocolDemo */,
+				3F4A16054F7FC23FCFA3B2E9 /* Pods-JiveLoggingHTTPProtocolDemoTests */,
 			);
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		B5666AD7355E998596B013AB /* Pods-JiveLoggingHTTPProtocolDemo */ = {
+		1E668D88A87A162122E8639A /* Pods-JiveLoggingHTTPProtocolDemo */ = {
 			isa = PBXGroup;
 			children = (
-				179D9187276526CEE60B23E1 /* Pods-JiveLoggingHTTPProtocolDemo-acknowledgements.markdown */,
-				E29202BCB53C63FA1FEB0155 /* Pods-JiveLoggingHTTPProtocolDemo-acknowledgements.plist */,
-				86CDF0F7C859C1836A255293 /* Pods-JiveLoggingHTTPProtocolDemo-dummy.m */,
-				C15391157F5CB76F02DA2A75 /* Pods-JiveLoggingHTTPProtocolDemo-environment.h */,
-				A49D12312D3A689D311EE19F /* Pods-JiveLoggingHTTPProtocolDemo-resources.sh */,
-				CF0BF03DEC3EA497D7669E0F /* Pods-JiveLoggingHTTPProtocolDemo.debug.xcconfig */,
-				0F22BDC05ABF2AB4BCC057AA /* Pods-JiveLoggingHTTPProtocolDemo.release.xcconfig */,
+				4F1847E4888A9139D8009081 /* Pods-JiveLoggingHTTPProtocolDemo-acknowledgements.markdown */,
+				D32C411B906196EDC990CBBC /* Pods-JiveLoggingHTTPProtocolDemo-acknowledgements.plist */,
+				F084A120060389BBEEC8019F /* Pods-JiveLoggingHTTPProtocolDemo-dummy.m */,
+				CC96D3DC4FBCA1F34A9A3DFD /* Pods-JiveLoggingHTTPProtocolDemo-environment.h */,
+				CD6C9917724EB340EE540CF7 /* Pods-JiveLoggingHTTPProtocolDemo-resources.sh */,
+				23EEB150A8D67236EB7D1DB5 /* Pods-JiveLoggingHTTPProtocolDemo.debug.xcconfig */,
+				634E79C351BB94C4DBCD6D1A /* Pods-JiveLoggingHTTPProtocolDemo.release.xcconfig */,
 			);
 			name = "Pods-JiveLoggingHTTPProtocolDemo";
 			path = "Target Support Files/Pods-JiveLoggingHTTPProtocolDemo";
 			sourceTree = "<group>";
 		};
-		C1BFCBD0A0B33DC252881F9A /* JiveLoggingHTTPProtocol */ = {
+		2647007C4E5C4A2B33011639 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				FDEE78B38FF89C4093ED6FE1 /* Source */,
-				430C0C30E6A51AA3BF6C4F96 /* Support Files */,
+				C76C3A183C0AA4FBD3A0E649 /* JiveLoggingHTTPProtocol */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		28EC2C3B065DFE735E7F8701 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FC66B54B5EE98AF45FED23FC /* libPods-JiveLoggingHTTPProtocolDemo.a */,
+				4CB3527E0232CE677595CB19 /* libPods-JiveLoggingHTTPProtocolDemo-JiveLoggingHTTPProtocol.a */,
+				89990964E465693CA6A31636 /* libPods-JiveLoggingHTTPProtocolDemoTests.a */,
+				FFE491D2EB2A37B7A0CAFC08 /* libPods-JiveLoggingHTTPProtocolDemoTests-JiveLoggingHTTPProtocol.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		389F667482EE990FE7F916D7 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				D2A3AB1128B99A28A39D4D64 /* JiveLoggingHTTPProtocol */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		3F4A16054F7FC23FCFA3B2E9 /* Pods-JiveLoggingHTTPProtocolDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				EA3CA272805BB5DE594CD538 /* Pods-JiveLoggingHTTPProtocolDemoTests-acknowledgements.markdown */,
+				F35EF1E68582EDF8BDD7FCAD /* Pods-JiveLoggingHTTPProtocolDemoTests-acknowledgements.plist */,
+				0F0C7FD33574892A7B356C6E /* Pods-JiveLoggingHTTPProtocolDemoTests-dummy.m */,
+				BF22B25AEDDDA56F962E137F /* Pods-JiveLoggingHTTPProtocolDemoTests-environment.h */,
+				739B55EDFB1E8FEF098176F8 /* Pods-JiveLoggingHTTPProtocolDemoTests-resources.sh */,
+				79FB2D4D51C2DEE2FDD72EE9 /* Pods-JiveLoggingHTTPProtocolDemoTests.debug.xcconfig */,
+				F2151F71D787F9C4DA338B85 /* Pods-JiveLoggingHTTPProtocolDemoTests.release.xcconfig */,
+			);
+			name = "Pods-JiveLoggingHTTPProtocolDemoTests";
+			path = "Target Support Files/Pods-JiveLoggingHTTPProtocolDemoTests";
+			sourceTree = "<group>";
+		};
+		C76C3A183C0AA4FBD3A0E649 /* JiveLoggingHTTPProtocol */ = {
+			isa = PBXGroup;
+			children = (
+				389F667482EE990FE7F916D7 /* Source */,
+				EA020CC44D15068C90AAB43F /* Support Files */,
 			);
 			name = JiveLoggingHTTPProtocol;
 			path = ..;
 			sourceTree = "<group>";
 		};
-		EB03C28426BFEDB4CA79BBB5 /* Development Pods */ = {
+		D2A3AB1128B99A28A39D4D64 /* JiveLoggingHTTPProtocol */ = {
 			isa = PBXGroup;
 			children = (
-				C1BFCBD0A0B33DC252881F9A /* JiveLoggingHTTPProtocol */,
+				04105BA1ED58331052B9608B /* JLHPCacheStoragePolicy.h */,
+				D27355560F663871A66CFA24 /* JLHPCacheStoragePolicy.m */,
+				428634F29670C39BD46A4004 /* JLHPCanonicalRequest.h */,
+				4829E6C5B0F9CF2585D25132 /* JLHPCanonicalRequest.m */,
+				E60131B2A66399131A2C4FBD /* JLHPLog.h */,
+				F6F9F4C6A43891D7A08BBC52 /* JLHPLog.m */,
+				57EF26DB64ECC128F180D3FE /* JLHPLoggingHTTPProtocol.h */,
+				2D4DE8E57FF25B9987C6D561 /* JLHPLoggingHTTPProtocol.m */,
+				2AF74E74A9A0C1F8B67891C7 /* JLHPQNSURLSessionDemux.h */,
+				BDC25E61E91284D1E0BE6827 /* JLHPQNSURLSessionDemux.m */,
 			);
-			name = "Development Pods";
+			path = JiveLoggingHTTPProtocol;
 			sourceTree = "<group>";
 		};
-		FDEE78B38FF89C4093ED6FE1 /* Source */ = {
+		DADEA3FFE3B263DD9C1D66D3 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				72F8A038DB46D21581137FE1 /* JiveLoggingHTTPProtocol */,
+				ACE41DE3E60AD7754119BDB1 /* Foundation.framework */,
 			);
-			path = Source;
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		DC45A26B5A232B583BA87904 = {
+			isa = PBXGroup;
+			children = (
+				7C2D6FA57065BEA7762E390D /* Podfile */,
+				2647007C4E5C4A2B33011639 /* Development Pods */,
+				0F6E5CF18DC10719D16FF849 /* Frameworks */,
+				28EC2C3B065DFE735E7F8701 /* Products */,
+				17EB3B25D6772B5CADCA240F /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		EA020CC44D15068C90AAB43F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6AF48502E18F434785B307A6 /* Pods-JiveLoggingHTTPProtocolDemo-JiveLoggingHTTPProtocol.xcconfig */,
+				2F2AF042E41D7123C386F05C /* Pods-JiveLoggingHTTPProtocolDemo-JiveLoggingHTTPProtocol-Private.xcconfig */,
+				EC25A0E6E05725DF58D44490 /* Pods-JiveLoggingHTTPProtocolDemo-JiveLoggingHTTPProtocol-dummy.m */,
+				D3ED9FF82CADF29F1A26222B /* Pods-JiveLoggingHTTPProtocolDemo-JiveLoggingHTTPProtocol-prefix.pch */,
+				EA104AF3332891550BC0670A /* Pods-JiveLoggingHTTPProtocolDemoTests-JiveLoggingHTTPProtocol.xcconfig */,
+				15196DCB4B8E3FF1CA6FA9C5 /* Pods-JiveLoggingHTTPProtocolDemoTests-JiveLoggingHTTPProtocol-Private.xcconfig */,
+				9F6B6B9292EF17499FF1120E /* Pods-JiveLoggingHTTPProtocolDemoTests-JiveLoggingHTTPProtocol-dummy.m */,
+				3105599D60111DF9C02EF570 /* Pods-JiveLoggingHTTPProtocolDemoTests-JiveLoggingHTTPProtocol-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "Pods/Target Support Files/Pods-JiveLoggingHTTPProtocolDemo-JiveLoggingHTTPProtocol";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		80E0D4F273F429018E9C5A01 /* Headers */ = {
+		9F34ED8E0A7B145A154CE926 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6934B19ED1860B1F3D35D8CA /* JLHPCacheStoragePolicy.h in Headers */,
-				3BB384A728DC2A4641A36B21 /* JLHPCanonicalRequest.h in Headers */,
-				9982BB64F3F6D11EF6FBFF64 /* JLHPLog.h in Headers */,
-				DC7A57680E23D4CD4C3932E2 /* JLHPLoggingHTTPProtocol.h in Headers */,
-				416C2CA59A9BA81A004AF7B7 /* JLHPQNSURLSessionDemux.h in Headers */,
+				6BBC265C3D2D25499253C143 /* JLHPCacheStoragePolicy.h in Headers */,
+				ACE24BE64D5BD196B7479BDD /* JLHPCanonicalRequest.h in Headers */,
+				17C80E5988A1C69213760C54 /* JLHPLog.h in Headers */,
+				8F731238DC79E3E026E4A558 /* JLHPLoggingHTTPProtocol.h in Headers */,
+				68A8F796D5590BC2A97AA67A /* JLHPQNSURLSessionDemux.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A07F0335E7725EE70FA2E7DE /* Headers */ = {
+		E12B8C073644515776045B4D /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0B822F604B8B6989749F7798 /* JLHPCacheStoragePolicy.h in Headers */,
-				B07CFF78F739AF3700BE6792 /* JLHPCanonicalRequest.h in Headers */,
-				2C6836244DC006B8D19A04CE /* JLHPLog.h in Headers */,
-				9AA23D2CAA4E61141480C58D /* JLHPLoggingHTTPProtocol.h in Headers */,
-				96C193578A87860EEAF7765C /* JLHPQNSURLSessionDemux.h in Headers */,
+				50A84226561A329D4ABF8499 /* JLHPCacheStoragePolicy.h in Headers */,
+				A676D3F60FC6E112996D12CD /* JLHPCanonicalRequest.h in Headers */,
+				4FCDEB96C6895845C7D61A45 /* JLHPLog.h in Headers */,
+				BB176333AFEFAAE574B3232F /* JLHPLoggingHTTPProtocol.h in Headers */,
+				4CEA91FC2987468E93E6D3AE /* JLHPQNSURLSessionDemux.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		3AB11F7555DAB32E23EE1677 /* Pods-JiveLoggingHTTPProtocolDemo */ = {
+		1545134F8AE703385AA0F44E /* Pods-JiveLoggingHTTPProtocolDemo-JiveLoggingHTTPProtocol */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7C2E9B00D36EFCE63473E5F5 /* Build configuration list for PBXNativeTarget "Pods-JiveLoggingHTTPProtocolDemo" */;
+			buildConfigurationList = 8EFDD5213993B74B003077E1 /* Build configuration list for PBXNativeTarget "Pods-JiveLoggingHTTPProtocolDemo-JiveLoggingHTTPProtocol" */;
 			buildPhases = (
-				66F5389E9094716275C941AE /* Sources */,
-				C317D4EBF3614BA3E612822D /* Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				46184933C0EB0184D0B8B82A /* PBXTargetDependency */,
-			);
-			name = "Pods-JiveLoggingHTTPProtocolDemo";
-			productName = "Pods-JiveLoggingHTTPProtocolDemo";
-			productReference = 353A7FC62667C0A52CFE318F /* libPods-JiveLoggingHTTPProtocolDemo.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-		4DF1997B388FA070180934D5 /* Pods-JiveLoggingHTTPProtocolDemoTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 22943D6FD9A94722E05429E3 /* Build configuration list for PBXNativeTarget "Pods-JiveLoggingHTTPProtocolDemoTests" */;
-			buildPhases = (
-				8DC8BC46E6C23C912BE3A622 /* Sources */,
-				D74D0FAF878805E5EB5D196E /* Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				6E2707C83A1124C4670D35C3 /* PBXTargetDependency */,
-			);
-			name = "Pods-JiveLoggingHTTPProtocolDemoTests";
-			productName = "Pods-JiveLoggingHTTPProtocolDemoTests";
-			productReference = 174D81B3AD6DCF261B3A6FCA /* libPods-JiveLoggingHTTPProtocolDemoTests.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-		58996148ACE4543F7B82760C /* Pods-JiveLoggingHTTPProtocolDemoTests-JiveLoggingHTTPProtocol */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = F5D822ED40F9A1097922D8F2 /* Build configuration list for PBXNativeTarget "Pods-JiveLoggingHTTPProtocolDemoTests-JiveLoggingHTTPProtocol" */;
-			buildPhases = (
-				AC85443803D3AC6836A3F19D /* Sources */,
-				833891C90BF2676AF58C8F34 /* Frameworks */,
-				80E0D4F273F429018E9C5A01 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "Pods-JiveLoggingHTTPProtocolDemoTests-JiveLoggingHTTPProtocol";
-			productName = "Pods-JiveLoggingHTTPProtocolDemoTests-JiveLoggingHTTPProtocol";
-			productReference = 91618810D6B7354CCDDFFAFC /* libPods-JiveLoggingHTTPProtocolDemoTests-JiveLoggingHTTPProtocol.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-		A04B1DEEC129218535920912 /* Pods-JiveLoggingHTTPProtocolDemo-JiveLoggingHTTPProtocol */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = C3CDFDD7E6231900826F1689 /* Build configuration list for PBXNativeTarget "Pods-JiveLoggingHTTPProtocolDemo-JiveLoggingHTTPProtocol" */;
-			buildPhases = (
-				D4A2EE4BCF1BDC673CD6BBA9 /* Sources */,
-				2DB41CAAB6EFF5DD113249F3 /* Frameworks */,
-				A07F0335E7725EE70FA2E7DE /* Headers */,
+				E0D9E176CDF89826EA78D330 /* Sources */,
+				5FFF4B3AF609D67C888116B3 /* Frameworks */,
+				9F34ED8E0A7B145A154CE926 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -362,168 +311,155 @@
 			);
 			name = "Pods-JiveLoggingHTTPProtocolDemo-JiveLoggingHTTPProtocol";
 			productName = "Pods-JiveLoggingHTTPProtocolDemo-JiveLoggingHTTPProtocol";
-			productReference = 107BC2EE011743BA0E1B5C6E /* libPods-JiveLoggingHTTPProtocolDemo-JiveLoggingHTTPProtocol.a */;
+			productReference = 4CB3527E0232CE677595CB19 /* libPods-JiveLoggingHTTPProtocolDemo-JiveLoggingHTTPProtocol.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		59173BCF5EAFC3C29E874671 /* Pods-JiveLoggingHTTPProtocolDemoTests-JiveLoggingHTTPProtocol */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C1084072C0E3AFB61AD78141 /* Build configuration list for PBXNativeTarget "Pods-JiveLoggingHTTPProtocolDemoTests-JiveLoggingHTTPProtocol" */;
+			buildPhases = (
+				71925FC7CF6B4B3B9EE86EF4 /* Sources */,
+				ED10AEE429336060C46E151F /* Frameworks */,
+				E12B8C073644515776045B4D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-JiveLoggingHTTPProtocolDemoTests-JiveLoggingHTTPProtocol";
+			productName = "Pods-JiveLoggingHTTPProtocolDemoTests-JiveLoggingHTTPProtocol";
+			productReference = FFE491D2EB2A37B7A0CAFC08 /* libPods-JiveLoggingHTTPProtocolDemoTests-JiveLoggingHTTPProtocol.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		86B3B12F3351674DDD829F14 /* Pods-JiveLoggingHTTPProtocolDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67B8FB992498D646233CF976 /* Build configuration list for PBXNativeTarget "Pods-JiveLoggingHTTPProtocolDemo" */;
+			buildPhases = (
+				8D8E6B06B722B5D29D169160 /* Sources */,
+				12C5318CCD38176BF25C32DA /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B58969C13B3A56D4674908F0 /* PBXTargetDependency */,
+			);
+			name = "Pods-JiveLoggingHTTPProtocolDemo";
+			productName = "Pods-JiveLoggingHTTPProtocolDemo";
+			productReference = FC66B54B5EE98AF45FED23FC /* libPods-JiveLoggingHTTPProtocolDemo.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		AFD1599A1195FDDE863DE21D /* Pods-JiveLoggingHTTPProtocolDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD2ACFA25AEDD79AD0BDC0B3 /* Build configuration list for PBXNativeTarget "Pods-JiveLoggingHTTPProtocolDemoTests" */;
+			buildPhases = (
+				16087C346D4D0373EA8FD9AE /* Sources */,
+				D0A446FEBF0BFCB6DE9276DD /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5D0F835F33D5986214147AC0 /* PBXTargetDependency */,
+			);
+			name = "Pods-JiveLoggingHTTPProtocolDemoTests";
+			productName = "Pods-JiveLoggingHTTPProtocolDemoTests";
+			productReference = 89990964E465693CA6A31636 /* libPods-JiveLoggingHTTPProtocolDemoTests.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		1E37D395EE3798AE0C7A396D /* Project object */ = {
+		9DF64CDC08976CAB7D2A3D87 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0510;
 			};
-			buildConfigurationList = D10FA202A95F996DBE63D0BC /* Build configuration list for PBXProject "Pods" */;
+			buildConfigurationList = 14274FFC38C7A7BECDE555E4 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 581E0C26FCF88B13956A3A24;
-			productRefGroup = 7A3EB8581A824018636A7F63 /* Products */;
+			mainGroup = DC45A26B5A232B583BA87904;
+			productRefGroup = 28EC2C3B065DFE735E7F8701 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3AB11F7555DAB32E23EE1677 /* Pods-JiveLoggingHTTPProtocolDemo */,
-				A04B1DEEC129218535920912 /* Pods-JiveLoggingHTTPProtocolDemo-JiveLoggingHTTPProtocol */,
-				4DF1997B388FA070180934D5 /* Pods-JiveLoggingHTTPProtocolDemoTests */,
-				58996148ACE4543F7B82760C /* Pods-JiveLoggingHTTPProtocolDemoTests-JiveLoggingHTTPProtocol */,
+				86B3B12F3351674DDD829F14 /* Pods-JiveLoggingHTTPProtocolDemo */,
+				1545134F8AE703385AA0F44E /* Pods-JiveLoggingHTTPProtocolDemo-JiveLoggingHTTPProtocol */,
+				AFD1599A1195FDDE863DE21D /* Pods-JiveLoggingHTTPProtocolDemoTests */,
+				59173BCF5EAFC3C29E874671 /* Pods-JiveLoggingHTTPProtocolDemoTests-JiveLoggingHTTPProtocol */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		66F5389E9094716275C941AE /* Sources */ = {
+		16087C346D4D0373EA8FD9AE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8E8E9E6037482F2B11843D64 /* Pods-JiveLoggingHTTPProtocolDemo-dummy.m in Sources */,
+				23532CAC6B29E9C750B683C1 /* Pods-JiveLoggingHTTPProtocolDemoTests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8DC8BC46E6C23C912BE3A622 /* Sources */ = {
+		71925FC7CF6B4B3B9EE86EF4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6838A1333B228A70C7BF8B8A /* Pods-JiveLoggingHTTPProtocolDemoTests-dummy.m in Sources */,
+				8A8BF72351CED55A54F36DFC /* JLHPCacheStoragePolicy.m in Sources */,
+				2A9298EB731856EEAD02CFE8 /* JLHPCanonicalRequest.m in Sources */,
+				7F135F0ABE232D0139FD9DFD /* JLHPLog.m in Sources */,
+				99788B9F6EE31C180AD13A5C /* JLHPLoggingHTTPProtocol.m in Sources */,
+				0FB1281250AFEF584D62322F /* JLHPQNSURLSessionDemux.m in Sources */,
+				589EC7539C3611EEAB3B595D /* Pods-JiveLoggingHTTPProtocolDemoTests-JiveLoggingHTTPProtocol-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AC85443803D3AC6836A3F19D /* Sources */ = {
+		8D8E6B06B722B5D29D169160 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				584D9965E507307E7084798A /* JLHPCacheStoragePolicy.m in Sources */,
-				9BEF0A3DD7BE38C19C84596F /* JLHPCanonicalRequest.m in Sources */,
-				E6AF520212E7B0D08CE6581E /* JLHPLog.m in Sources */,
-				679A241AFFC48EF0D2B3E9C8 /* JLHPLoggingHTTPProtocol.m in Sources */,
-				FE8AB188C737DF13238433F7 /* JiveQNSURLSessionDemux.m in Sources */,
-				74D79CE0FE6FC0CAE9FBFBCB /* Pods-JiveLoggingHTTPProtocolDemoTests-JiveLoggingHTTPProtocol-dummy.m in Sources */,
+				0993C68B802ACDC9C31E4353 /* Pods-JiveLoggingHTTPProtocolDemo-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D4A2EE4BCF1BDC673CD6BBA9 /* Sources */ = {
+		E0D9E176CDF89826EA78D330 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				07D056D6A9B6EF14C73831EA /* JLHPCacheStoragePolicy.m in Sources */,
-				435B6A07C8866276700631CF /* JLHPCanonicalRequest.m in Sources */,
-				A44703466EC31169F4967401 /* JLHPLog.m in Sources */,
-				21FF8652CB38B931708E3C3B /* JLHPLoggingHTTPProtocol.m in Sources */,
-				CC8FBA9533528D379BCC8B4F /* JiveQNSURLSessionDemux.m in Sources */,
-				16CBD73939DDECA3498E5984 /* Pods-JiveLoggingHTTPProtocolDemo-JiveLoggingHTTPProtocol-dummy.m in Sources */,
+				2F109AD117B5D096C34F6D49 /* JLHPCacheStoragePolicy.m in Sources */,
+				B3C74E61BEDE949885833E33 /* JLHPCanonicalRequest.m in Sources */,
+				C7BD26D56FFB13630FDDA08E /* JLHPLog.m in Sources */,
+				78FF4EAEC673DD79A9421C5D /* JLHPLoggingHTTPProtocol.m in Sources */,
+				543D17A618B8C1926855FC6F /* JLHPQNSURLSessionDemux.m in Sources */,
+				5CA6BBFD54448D0612A9F58B /* Pods-JiveLoggingHTTPProtocolDemo-JiveLoggingHTTPProtocol-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		46184933C0EB0184D0B8B82A /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-JiveLoggingHTTPProtocolDemo-JiveLoggingHTTPProtocol";
-			target = A04B1DEEC129218535920912 /* Pods-JiveLoggingHTTPProtocolDemo-JiveLoggingHTTPProtocol */;
-			targetProxy = 6143BDA23E7505BB3F609300 /* PBXContainerItemProxy */;
-		};
-		6E2707C83A1124C4670D35C3 /* PBXTargetDependency */ = {
+		5D0F835F33D5986214147AC0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-JiveLoggingHTTPProtocolDemoTests-JiveLoggingHTTPProtocol";
-			target = 58996148ACE4543F7B82760C /* Pods-JiveLoggingHTTPProtocolDemoTests-JiveLoggingHTTPProtocol */;
-			targetProxy = 69876A4A3DC38D1617B20411 /* PBXContainerItemProxy */;
+			target = 59173BCF5EAFC3C29E874671 /* Pods-JiveLoggingHTTPProtocolDemoTests-JiveLoggingHTTPProtocol */;
+			targetProxy = 9CD542675507A19AA4D66A65 /* PBXContainerItemProxy */;
+		};
+		B58969C13B3A56D4674908F0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-JiveLoggingHTTPProtocolDemo-JiveLoggingHTTPProtocol";
+			target = 1545134F8AE703385AA0F44E /* Pods-JiveLoggingHTTPProtocolDemo-JiveLoggingHTTPProtocol */;
+			targetProxy = B171F3ABCBE668D93168E458 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0812040AD7C07E230B32D320 /* Release */ = {
+		329ADA79484204520F7FF06B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0F22BDC05ABF2AB4BCC057AA /* Pods-JiveLoggingHTTPProtocolDemo.release.xcconfig */;
+			baseConfigurationReference = 15196DCB4B8E3FF1CA6FA9C5 /* Pods-JiveLoggingHTTPProtocolDemoTests-JiveLoggingHTTPProtocol-Private.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		1B33DF35EDE6F332B3DCAD50 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = CF0BF03DEC3EA497D7669E0F /* Pods-JiveLoggingHTTPProtocolDemo.debug.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		51ECB7478B50BFFD045CC9A4 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8B6676D668B86D56A4F25363 /* Pods-JiveLoggingHTTPProtocolDemoTests.release.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		57D836E19F4464D14226DFE1 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B19425DC599FBD1F4C3AC5B8 /* Pods-JiveLoggingHTTPProtocolDemo-JiveLoggingHTTPProtocol-Private.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-JiveLoggingHTTPProtocolDemo-JiveLoggingHTTPProtocol/Pods-JiveLoggingHTTPProtocolDemo-JiveLoggingHTTPProtocol-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		65F61AAA62764823CAE3C169 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B19425DC599FBD1F4C3AC5B8 /* Pods-JiveLoggingHTTPProtocolDemo-JiveLoggingHTTPProtocol-Private.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-JiveLoggingHTTPProtocolDemo-JiveLoggingHTTPProtocol/Pods-JiveLoggingHTTPProtocolDemo-JiveLoggingHTTPProtocol-prefix.pch";
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-JiveLoggingHTTPProtocolDemoTests-JiveLoggingHTTPProtocol/Pods-JiveLoggingHTTPProtocolDemoTests-JiveLoggingHTTPProtocol-prefix.pch";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
@@ -534,7 +470,41 @@
 			};
 			name = Debug;
 		};
-		7770F03E52CE9797DE22C802 /* Debug */ = {
+		5E2D590F6AD8B0BFD9D70E2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6306C6B5C5B5558DC65D2B95 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -573,59 +543,9 @@
 			};
 			name = Debug;
 		};
-		7955044BC3E97A10FAFE235C /* Debug */ = {
+		6954C5F1B76FD7BA88AED212 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E0469ACD9D3D379313F07A44 /* Pods-JiveLoggingHTTPProtocolDemoTests.debug.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		91D03F7F3E8D543B4461FCFA /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = YES;
-				ENABLE_NS_ASSERTIONS = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		949845EFBAA20DA91C8596F3 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 82FC3B812222A90C8C3CC41E /* Pods-JiveLoggingHTTPProtocolDemoTests-JiveLoggingHTTPProtocol-Private.xcconfig */;
+			baseConfigurationReference = 15196DCB4B8E3FF1CA6FA9C5 /* Pods-JiveLoggingHTTPProtocolDemoTests-JiveLoggingHTTPProtocol-Private.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/Pods-JiveLoggingHTTPProtocolDemoTests-JiveLoggingHTTPProtocol/Pods-JiveLoggingHTTPProtocolDemoTests-JiveLoggingHTTPProtocol-prefix.pch";
@@ -639,12 +559,60 @@
 			};
 			name = Release;
 		};
-		B40B046BC5842752818DFF15 /* Debug */ = {
+		A21F8CA218C3BC07168DCD05 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 82FC3B812222A90C8C3CC41E /* Pods-JiveLoggingHTTPProtocolDemoTests-JiveLoggingHTTPProtocol-Private.xcconfig */;
+			baseConfigurationReference = F2151F71D787F9C4DA338B85 /* Pods-JiveLoggingHTTPProtocolDemoTests.release.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-JiveLoggingHTTPProtocolDemoTests-JiveLoggingHTTPProtocol/Pods-JiveLoggingHTTPProtocolDemoTests-JiveLoggingHTTPProtocol-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		AD956E0324D5989C3DEEC09C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 23EEB150A8D67236EB7D1DB5 /* Pods-JiveLoggingHTTPProtocolDemo.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		B89FC890A366678894EEC747 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 79FB2D4D51C2DEE2FDD72EE9 /* Pods-JiveLoggingHTTPProtocolDemoTests.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		C12645A3A2A4BE75C94D70E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F2AF042E41D7123C386F05C /* Pods-JiveLoggingHTTPProtocolDemo-JiveLoggingHTTPProtocol-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-JiveLoggingHTTPProtocolDemo-JiveLoggingHTTPProtocol/Pods-JiveLoggingHTTPProtocolDemo-JiveLoggingHTTPProtocol-prefix.pch";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
@@ -655,55 +623,87 @@
 			};
 			name = Debug;
 		};
+		D062591CDF641CAA4CA63053 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 634E79C351BB94C4DBCD6D1A /* Pods-JiveLoggingHTTPProtocolDemo.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		DD2685127CF7CBFFCC6227AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F2AF042E41D7123C386F05C /* Pods-JiveLoggingHTTPProtocolDemo-JiveLoggingHTTPProtocol-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-JiveLoggingHTTPProtocolDemo-JiveLoggingHTTPProtocol/Pods-JiveLoggingHTTPProtocolDemo-JiveLoggingHTTPProtocol-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		22943D6FD9A94722E05429E3 /* Build configuration list for PBXNativeTarget "Pods-JiveLoggingHTTPProtocolDemoTests" */ = {
+		14274FFC38C7A7BECDE555E4 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7955044BC3E97A10FAFE235C /* Debug */,
-				51ECB7478B50BFFD045CC9A4 /* Release */,
+				6306C6B5C5B5558DC65D2B95 /* Debug */,
+				5E2D590F6AD8B0BFD9D70E2F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7C2E9B00D36EFCE63473E5F5 /* Build configuration list for PBXNativeTarget "Pods-JiveLoggingHTTPProtocolDemo" */ = {
+		67B8FB992498D646233CF976 /* Build configuration list for PBXNativeTarget "Pods-JiveLoggingHTTPProtocolDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1B33DF35EDE6F332B3DCAD50 /* Debug */,
-				0812040AD7C07E230B32D320 /* Release */,
+				AD956E0324D5989C3DEEC09C /* Debug */,
+				D062591CDF641CAA4CA63053 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C3CDFDD7E6231900826F1689 /* Build configuration list for PBXNativeTarget "Pods-JiveLoggingHTTPProtocolDemo-JiveLoggingHTTPProtocol" */ = {
+		8EFDD5213993B74B003077E1 /* Build configuration list for PBXNativeTarget "Pods-JiveLoggingHTTPProtocolDemo-JiveLoggingHTTPProtocol" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				65F61AAA62764823CAE3C169 /* Debug */,
-				57D836E19F4464D14226DFE1 /* Release */,
+				C12645A3A2A4BE75C94D70E6 /* Debug */,
+				DD2685127CF7CBFFCC6227AD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D10FA202A95F996DBE63D0BC /* Build configuration list for PBXProject "Pods" */ = {
+		C1084072C0E3AFB61AD78141 /* Build configuration list for PBXNativeTarget "Pods-JiveLoggingHTTPProtocolDemoTests-JiveLoggingHTTPProtocol" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7770F03E52CE9797DE22C802 /* Debug */,
-				91D03F7F3E8D543B4461FCFA /* Release */,
+				329ADA79484204520F7FF06B /* Debug */,
+				6954C5F1B76FD7BA88AED212 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F5D822ED40F9A1097922D8F2 /* Build configuration list for PBXNativeTarget "Pods-JiveLoggingHTTPProtocolDemoTests-JiveLoggingHTTPProtocol" */ = {
+		FD2ACFA25AEDD79AD0BDC0B3 /* Build configuration list for PBXNativeTarget "Pods-JiveLoggingHTTPProtocolDemoTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B40B046BC5842752818DFF15 /* Debug */,
-				949845EFBAA20DA91C8596F3 /* Release */,
+				B89FC890A366678894EEC747 /* Debug */,
+				A21F8CA218C3BC07168DCD05 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 1E37D395EE3798AE0C7A396D /* Project object */;
+	rootObject = 9DF64CDC08976CAB7D2A3D87 /* Project object */;
 }
