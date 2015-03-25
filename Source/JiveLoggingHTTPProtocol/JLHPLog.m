@@ -1,5 +1,5 @@
 /*
- File: JiveLog.m
+ File: JLHPLog.m
  
  Disclaimer: IMPORTANT:  This Apple software is supplied to you by Apple
  Inc. ("Apple") in consideration of your agreement to the following
@@ -43,11 +43,11 @@
  
  */
 
-#import "JiveLog.h"
+#import "JLHPLog.h"
 
 static NSUInteger const JIVE_LOG_TEXT_MUTABLE_DATA_MAX_LENGTH = 1024L * 1024L;
 
-@interface JiveLog ()
+@interface JLHPLog ()
 
 @property (nonatomic, strong) NSString *prefix;
 @property (nonatomic, strong) NSString *UUIDString;
@@ -62,7 +62,7 @@ static NSUInteger const JIVE_LOG_TEXT_MUTABLE_DATA_MAX_LENGTH = 1024L * 1024L;
 
 @end
 
-@implementation JiveLog
+@implementation JLHPLog
 
 - (instancetype)initWithUUIDString:(NSString *)UUIDString
                            request:(NSURLRequest *)request {

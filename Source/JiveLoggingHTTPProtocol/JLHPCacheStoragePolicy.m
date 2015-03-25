@@ -1,5 +1,5 @@
 /*
-     File: JiveCacheStoragePolicy.m
+     File: JLHPCacheStoragePolicy.m
  Abstract: A function to determine the cache storage policy for a request.
   Version: 1.1
  
@@ -45,7 +45,7 @@
  
  */
 
-#import "JiveCacheStoragePolicy.h"
+#import "JLHPCacheStoragePolicy.h"
 
 extern NSURLCacheStoragePolicy CacheStoragePolicyForRequestAndResponse(NSURLRequest * request, NSHTTPURLResponse * response)
     // See comment in header.

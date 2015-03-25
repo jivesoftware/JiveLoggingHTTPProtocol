@@ -1,5 +1,5 @@
 /*
-     File: JiveLoggingHTTPProtocol.m
+     File: JLHPLoggingHTTPProtocol.m
  Abstract: An NSURLProtocol subclass that overrides the built-in HTTP/HTTPS protocol.
   Version: 1.1
  
@@ -45,15 +45,15 @@
  
  */
 
-#import "JiveLoggingHTTPProtocol.h"
+#import "JLHPLoggingHTTPProtocol.h"
 
-#import "JiveCanonicalRequest.h"
-#import "JiveCacheStoragePolicy.h"
-#import "JiveQNSURLSessionDemux.h"
+#import "JLHPCanonicalRequest.h"
+#import "JLHPCacheStoragePolicy.h"
+#import "JLHPQNSURLSessionDemux.h"
 
-#import "JiveLog.h"
+#import "JLHPLog.h"
 
-@interface JiveLoggingHTTPProtocol () <NSURLSessionDataDelegate>
+@interface JLHPLoggingHTTPProtocol () <NSURLSessionDataDelegate>
 
 @property (atomic, strong, readwrite) NSThread *                        clientThread;       ///< The thread on which we should call the client.
 
@@ -64,7 +64,7 @@
  *  we must store them both together until we're ready to print.
  *  We might need to print it after -stopLoading, so don't nil it there.
  */
-@property (atomic, strong, readwrite) JiveLog *                         responseLog;        ///< log to capture the complete response and data together.
+@property (atomic, strong, readwrite) JLHPLog *                         responseLog;        ///< log to capture the complete response and data together.
 
 /*! The run loop modes in which to call the client.
  *  \details The concurrency control here is complex.  It's set up on the client 
@@ -80,7 +80,7 @@
 
 @end
 
-@implementation JiveLoggingHTTPProtocol
+@implementation JLHPLoggingHTTPProtocol
 
 #pragma mark * Subclass specific additions
 
@@ -95,10 +95,10 @@
  *  thread in the correct modes.  Can be called on any thread.
  */
 
-+ (JiveQNSURLSessionDemux *)sharedDemux
++ (JLHPQNSURLSessionDemux *)sharedDemux
 {
     static dispatch_once_t      sOnceToken;
-    static JiveQNSURLSessionDemux * sDemux;
+    static JLHPQNSURLSessionDemux * sDemux;
     dispatch_once(&sOnceToken, ^{
         NSURLSessionConfiguration *     config;
         
@@ -106,7 +106,7 @@
         // You have to explicitly configure the session to use your own protocol subclass here 
         // otherwise you don't see redirects <rdar://problem/17384498>.
         config.protocolClasses = @[ self ];
-        sDemux = [[JiveQNSURLSessionDemux alloc] initWithConfiguration:config];
+        sDemux = [[JLHPQNSURLSessionDemux alloc] initWithConfiguration:config];
     });
     return sDemux;
 }
@@ -117,9 +117,9 @@
  *  suffer an infinite recursive death).
  */
 
-static NSString * kOurRecursiveRequestFlagProperty = @"com.jivesoftware.mobile.JiveLoggingHTTPProtocol";
+static NSString * kOurRecursiveRequestFlagProperty = @"com.jivesoftware.mobile.JLHPLoggingHTTPProtocol";
 
-static NSString * kJiveUUIDStringRequestFlagProperty = @"com.jivesoftware.mobile.JiveLoggingHTTPProtocol.UUIDString";
+static NSString * kJLHPUUIDStringRequestFlagProperty = @"com.jivesoftware.mobile.JLHPLoggingHTTPProtocol.UUIDString";
 
 + (BOOL)canInitWithRequest:(NSURLRequest *)request
 {
@@ -244,12 +244,12 @@ static NSString * kJiveUUIDStringRequestFlagProperty = @"com.jivesoftware.mobile
     
     self.clientThread = [NSThread currentThread];
     
-    self.UUIDString = [[self class] propertyForKey:kJiveUUIDStringRequestFlagProperty
+    self.UUIDString = [[self class] propertyForKey:kJLHPUUIDStringRequestFlagProperty
                                          inRequest:recursiveRequest];
     if (!self.UUIDString) {
         self.UUIDString = [[NSUUID UUID] UUIDString];
         [[self class] setProperty:self.UUIDString
-                           forKey:kJiveUUIDStringRequestFlagProperty
+                           forKey:kJLHPUUIDStringRequestFlagProperty
                         inRequest:recursiveRequest];
     }
     
@@ -321,7 +321,7 @@ static NSString * kJiveUUIDStringRequestFlagProperty = @"com.jivesoftware.mobile
     redirectRequest = [newRequest mutableCopy];
     [[self class] removePropertyForKey:kOurRecursiveRequestFlagProperty inRequest:redirectRequest];
     
-    JiveLog *redirectResponseLog = [[JiveLog alloc] initWithUUIDString:self.UUIDString
+    JLHPLog *redirectResponseLog = [[JLHPLog alloc] initWithUUIDString:self.UUIDString
                                                               response:response];
     [redirectResponseLog logCancel];
     [redirectResponseLog print];
@@ -361,14 +361,14 @@ static NSString * kJiveUUIDStringRequestFlagProperty = @"com.jivesoftware.mobile
         cacheStoragePolicy = CacheStoragePolicyForRequestAndResponse(self.task.originalRequest, (NSHTTPURLResponse *) response);
         statusCode = [((NSHTTPURLResponse *) response) statusCode];
         
-        self.responseLog = [[JiveLog alloc] initWithUUIDString:self.UUIDString
+        self.responseLog = [[JLHPLog alloc] initWithUUIDString:self.UUIDString
                                                       response:(NSHTTPURLResponse *)response];
     } else {
         assert(NO);
         cacheStoragePolicy = NSURLCacheStorageNotAllowed;
         statusCode = 42;
         
-        self.responseLog = [[JiveLog alloc] initWithUUIDString:self.UUIDString
+        self.responseLog = [[JLHPLog alloc] initWithUUIDString:self.UUIDString
                                                       response:nil];
     }
     
@@ -446,7 +446,7 @@ static NSString * kJiveUUIDStringRequestFlagProperty = @"com.jivesoftware.mobile
 }
 
 - (void)logRequest:(NSURLRequest *)request {
-    JiveLog *log = [[JiveLog alloc] initWithUUIDString:self.UUIDString
+    JLHPLog *log = [[JLHPLog alloc] initWithUUIDString:self.UUIDString
                                                request:request];
     [log print];
 }

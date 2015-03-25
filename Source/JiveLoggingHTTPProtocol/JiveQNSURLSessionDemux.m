@@ -1,5 +1,5 @@
 /*
-     File: JiveQNSURLSessionDemux.m
+     File: JLHPQNSURLSessionDemux.m
  Abstract: A general class to demux NSURLSession delegate callbacks.
   Version: 1.1
  
@@ -45,9 +45,9 @@
  
  */
 
-#import "JiveQNSURLSessionDemux.h"
+#import "JLHPQNSURLSessionDemux.h"
 
-@interface JiveQNSURLSessionDemuxTaskInfo : NSObject
+@interface JLHPQNSURLSessionDemuxTaskInfo : NSObject
 
 - (instancetype)initWithTask:(NSURLSessionDataTask *)task delegate:(id<NSURLSessionDataDelegate>)delegate modes:(NSArray *)modes;
 
@@ -62,14 +62,14 @@
 
 @end
 
-@interface JiveQNSURLSessionDemuxTaskInfo ()
+@interface JLHPQNSURLSessionDemuxTaskInfo ()
 
 @property (atomic, strong, readwrite) id<NSURLSessionDataDelegate>  delegate;
 @property (atomic, strong, readwrite) NSThread *                    thread;
 
 @end
 
-@implementation JiveQNSURLSessionDemuxTaskInfo
+@implementation JLHPQNSURLSessionDemuxTaskInfo
 
 - (instancetype)initWithTask:(NSURLSessionDataTask *)task delegate:(id<NSURLSessionDataDelegate>)delegate modes:(NSArray *)modes
 {
@@ -108,14 +108,14 @@
 
 @end
 
-@interface JiveQNSURLSessionDemux () <NSURLSessionDataDelegate>
+@interface JLHPQNSURLSessionDemux () <NSURLSessionDataDelegate>
 
 @property (atomic, strong, readonly ) NSMutableDictionary * taskInfoByTaskID;       // keys NSURLSessionTask taskIdentifier, values are SessionManager
 @property (atomic, strong, readonly ) NSOperationQueue *    sessionDelegateQueue;
 
 @end
 
-@implementation JiveQNSURLSessionDemux
+@implementation JLHPQNSURLSessionDemux
 
 - (instancetype)init
 {
@@ -136,10 +136,10 @@
 
         self->_sessionDelegateQueue = [[NSOperationQueue alloc] init];
         [self->_sessionDelegateQueue setMaxConcurrentOperationCount:1];
-        [self->_sessionDelegateQueue setName:@"JiveQNSURLSessionDemux"];
+        [self->_sessionDelegateQueue setName:@"JLHPQNSURLSessionDemux"];
 
         self->_session = [NSURLSession sessionWithConfiguration:self->_configuration delegate:self delegateQueue:self->_sessionDelegateQueue];
-        self->_session.sessionDescription = @"JiveQNSURLSessionDemux";
+        self->_session.sessionDescription = @"JLHPQNSURLSessionDemux";
     }
     return self;
 }
@@ -147,7 +147,7 @@
 - (NSURLSessionDataTask *)dataTaskWithRequest:(NSURLRequest *)request delegate:(id<NSURLSessionDataDelegate>)delegate modes:(NSArray *)modes
 {
     NSURLSessionDataTask *          task;
-    JiveQNSURLSessionDemuxTaskInfo *    taskInfo;
+    JLHPQNSURLSessionDemuxTaskInfo *    taskInfo;
 
     assert(request != nil);
     assert(delegate != nil);
@@ -160,7 +160,7 @@
     task = [self.session dataTaskWithRequest:request];
     assert(task != nil);
     
-    taskInfo = [[JiveQNSURLSessionDemuxTaskInfo alloc] initWithTask:task delegate:delegate modes:modes];
+    taskInfo = [[JLHPQNSURLSessionDemuxTaskInfo alloc] initWithTask:task delegate:delegate modes:modes];
     
     @synchronized (self) {
         self.taskInfoByTaskID[@(task.taskIdentifier)] = taskInfo;
@@ -169,9 +169,9 @@
     return task;
 }
 
-- (JiveQNSURLSessionDemuxTaskInfo *)taskInfoForTask:(NSURLSessionTask *)task
+- (JLHPQNSURLSessionDemuxTaskInfo *)taskInfoForTask:(NSURLSessionTask *)task
 {
-    JiveQNSURLSessionDemuxTaskInfo *    result;
+    JLHPQNSURLSessionDemuxTaskInfo *    result;
     
     assert(task != nil);
     
@@ -184,7 +184,7 @@
 
 - (void)URLSession:(NSURLSession *)session task:(NSURLSessionTask *)task willPerformHTTPRedirection:(NSHTTPURLResponse *)response newRequest:(NSURLRequest *)newRequest completionHandler:(void (^)(NSURLRequest *))completionHandler
 {
-    JiveQNSURLSessionDemuxTaskInfo *    taskInfo;
+    JLHPQNSURLSessionDemuxTaskInfo *    taskInfo;
     
     taskInfo = [self taskInfoForTask:task];
     if ([taskInfo.delegate respondsToSelector:@selector(URLSession:task:willPerformHTTPRedirection:newRequest:completionHandler:)]) {
@@ -198,7 +198,7 @@
 
 - (void)URLSession:(NSURLSession *)session task:(NSURLSessionTask *)task didReceiveChallenge:(NSURLAuthenticationChallenge *)challenge completionHandler:(void (^)(NSURLSessionAuthChallengeDisposition disposition, NSURLCredential *credential))completionHandler
 {
-    JiveQNSURLSessionDemuxTaskInfo *    taskInfo;
+    JLHPQNSURLSessionDemuxTaskInfo *    taskInfo;
     
     taskInfo = [self taskInfoForTask:task];
     if ([taskInfo.delegate respondsToSelector:@selector(URLSession:task:didReceiveChallenge:completionHandler:)]) {
@@ -212,7 +212,7 @@
 
 - (void)URLSession:(NSURLSession *)session task:(NSURLSessionTask *)task needNewBodyStream:(void (^)(NSInputStream *bodyStream))completionHandler
 {
-    JiveQNSURLSessionDemuxTaskInfo *    taskInfo;
+    JLHPQNSURLSessionDemuxTaskInfo *    taskInfo;
     
     taskInfo = [self taskInfoForTask:task];
     if ([taskInfo.delegate respondsToSelector:@selector(URLSession:task:needNewBodyStream:)]) {
@@ -226,7 +226,7 @@
 
 - (void)URLSession:(NSURLSession *)session task:(NSURLSessionTask *)task didSendBodyData:(int64_t)bytesSent totalBytesSent:(int64_t)totalBytesSent totalBytesExpectedToSend:(int64_t)totalBytesExpectedToSend
 {
-    JiveQNSURLSessionDemuxTaskInfo *    taskInfo;
+    JLHPQNSURLSessionDemuxTaskInfo *    taskInfo;
     
     taskInfo = [self taskInfoForTask:task];
     if ([taskInfo.delegate respondsToSelector:@selector(URLSession:task:didSendBodyData:totalBytesSent:totalBytesExpectedToSend:)]) {
@@ -238,7 +238,7 @@
 
 - (void)URLSession:(NSURLSession *)session task:(NSURLSessionTask *)task didCompleteWithError:(NSError *)error
 {
-    JiveQNSURLSessionDemuxTaskInfo *    taskInfo;
+    JLHPQNSURLSessionDemuxTaskInfo *    taskInfo;
     
     taskInfo = [self taskInfoForTask:task];
 
@@ -264,7 +264,7 @@
 
 - (void)URLSession:(NSURLSession *)session dataTask:(NSURLSessionDataTask *)dataTask didReceiveResponse:(NSURLResponse *)response completionHandler:(void (^)(NSURLSessionResponseDisposition disposition))completionHandler
 {
-    JiveQNSURLSessionDemuxTaskInfo *    taskInfo;
+    JLHPQNSURLSessionDemuxTaskInfo *    taskInfo;
     
     taskInfo = [self taskInfoForTask:dataTask];
     if ([taskInfo.delegate respondsToSelector:@selector(URLSession:dataTask:didReceiveResponse:completionHandler:)]) {
@@ -278,7 +278,7 @@
 
 - (void)URLSession:(NSURLSession *)session dataTask:(NSURLSessionDataTask *)dataTask didBecomeDownloadTask:(NSURLSessionDownloadTask *)downloadTask
 {
-    JiveQNSURLSessionDemuxTaskInfo *    taskInfo;
+    JLHPQNSURLSessionDemuxTaskInfo *    taskInfo;
     
     taskInfo = [self taskInfoForTask:dataTask];
     if ([taskInfo.delegate respondsToSelector:@selector(URLSession:dataTask:didBecomeDownloadTask:)]) {
@@ -290,7 +290,7 @@
 
 - (void)URLSession:(NSURLSession *)session dataTask:(NSURLSessionDataTask *)dataTask didReceiveData:(NSData *)data
 {
-    JiveQNSURLSessionDemuxTaskInfo *    taskInfo;
+    JLHPQNSURLSessionDemuxTaskInfo *    taskInfo;
     
     taskInfo = [self taskInfoForTask:dataTask];
     if ([taskInfo.delegate respondsToSelector:@selector(URLSession:dataTask:didReceiveData:)]) {
@@ -302,7 +302,7 @@
 
 - (void)URLSession:(NSURLSession *)session dataTask:(NSURLSessionDataTask *)dataTask willCacheResponse:(NSCachedURLResponse *)proposedResponse completionHandler:(void (^)(NSCachedURLResponse *cachedResponse))completionHandler
 {
-    JiveQNSURLSessionDemuxTaskInfo *    taskInfo;
+    JLHPQNSURLSessionDemuxTaskInfo *    taskInfo;
     
     taskInfo = [self taskInfoForTask:dataTask];
     if ([taskInfo.delegate respondsToSelector:@selector(URLSession:dataTask:willCacheResponse:completionHandler:)]) {

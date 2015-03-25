@@ -1,5 +1,5 @@
 /*
-     File: JiveCanonicalRequestCanonicalRequest.m
+     File: JLHPCanonicalRequest.m
  Abstract: A function for creating canonical HTTP/HTTPS requests.
   Version: 1.1
  
@@ -45,7 +45,7 @@
  
  */
 
-#import "JiveCanonicalRequest.h"
+#import "JLHPCanonicalRequest.h"
 
 #include <xlocale.h>
 

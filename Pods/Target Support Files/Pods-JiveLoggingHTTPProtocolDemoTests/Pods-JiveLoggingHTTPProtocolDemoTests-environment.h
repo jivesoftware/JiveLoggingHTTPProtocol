@@ -9,6 +9,6 @@
 // JiveLoggingHTTPProtocol
 #define COCOAPODS_POD_AVAILABLE_JiveLoggingHTTPProtocol
 #define COCOAPODS_VERSION_MAJOR_JiveLoggingHTTPProtocol 0
-#define COCOAPODS_VERSION_MINOR_JiveLoggingHTTPProtocol 1
+#define COCOAPODS_VERSION_MINOR_JiveLoggingHTTPProtocol 2
 #define COCOAPODS_VERSION_PATCH_JiveLoggingHTTPProtocol 0
 

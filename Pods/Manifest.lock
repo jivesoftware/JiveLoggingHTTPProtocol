@@ -1,5 +1,5 @@
 PODS:
-  - JiveLoggingHTTPProtocol (0.1.0)
+  - JiveLoggingHTTPProtocol (0.2.0)
 
 DEPENDENCIES:
   - JiveLoggingHTTPProtocol (from `.`)
@@ -9,6 +9,6 @@ EXTERNAL SOURCES:
     :path: .
 
 SPEC CHECKSUMS:
-  JiveLoggingHTTPProtocol: 0ed0499fb9bbdad0f6493ee1434b5d28202c0a38
+  JiveLoggingHTTPProtocol: e906c2537d8be371cdc845e62594f8b8b1c99962
 
-COCOAPODS: 0.36.0.rc.1
+COCOAPODS: 0.36.0

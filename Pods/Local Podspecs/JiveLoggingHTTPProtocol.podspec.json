@@ -1,6 +1,6 @@
 {
   "name": "JiveLoggingHTTPProtocol",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "license": {
     "type": "BSD",
     "file": "LICENSE"
@@ -12,8 +12,8 @@
     "Jive Mobile": "jive-mobile@jivesoftware.com"
   },
   "source": {
-    "git": "git@github.com:jivesoftware/JiveLoggingHTTPProtocol.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/jivesoftware/JiveLoggingHTTPProtocol.git",
+    "tag": "0.2.0"
   },
   "platforms": {
     "ios": "7.0"
