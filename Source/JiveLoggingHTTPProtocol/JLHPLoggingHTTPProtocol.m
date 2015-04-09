@@ -105,7 +105,11 @@
         config = [NSURLSessionConfiguration defaultSessionConfiguration];
         // You have to explicitly configure the session to use your own protocol subclass here 
         // otherwise you don't see redirects <rdar://problem/17384498>.
-        config.protocolClasses = @[ self ];
+        if (config.protocolClasses) {
+            config.protocolClasses = [config.protocolClasses arrayByAddingObject:self];
+        } else {
+            config.protocolClasses = @[ self ];
+        }
         sDemux = [[JLHPQNSURLSessionDemux alloc] initWithConfiguration:config];
     });
     return sDemux;
