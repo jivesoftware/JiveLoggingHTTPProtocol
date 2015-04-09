@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name = 'JiveLoggingHTTPProtocol'
-  s.version = '0.2.2'
+  s.version = '0.2.3'
   s.license = { :type => 'BSD', :file => 'LICENSE' }
   s.summary = 'An NSURLProtocol to log HTTP Requests and Responses'
   s.homepage = 'https://github.com/jivesoftware/JiveLoggingHTTPProtocol'
